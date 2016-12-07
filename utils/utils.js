@@ -6,35 +6,28 @@ import * as keymapping from '../common/keymapping.json';
 
 export default class Utils {
 
-    constructor() { }
+    constructor(platform) {
+		this.platform = platform;
+	 }
 
-    get Actions() {
-        return actions;
-    }
-
-    get KeyMapping() {
-        return keymapping;
-    }
-
-
-    // Get ide name and userKeys json files, and returns an array of ActionName:{actionId:***, shortcut:****}, the shortcut as string
-	getNormalizedListByIDE(ideName, userKeys) {
+    // Get ide name and userprefs json files, and returns an array of {action:***, keys:****}, the keys as string
+	getNormalizedListByIDE(ideName, userprefs) {
 		var arr = [];
-		for (action of userActionsJson) {
+		for (userpref of userprefs) {
 			var obj = {};
-			obj.action = getActionIdByIde(action.action, ideName);
-			obj.keys = keyArrayToString(userkeys[action].keys)
+			obj.action = getActionIdByIde(userpref.action, ideName);
+			obj.keys = keyArrayToString(userpref.keys, ideName)
 			arr.push(obj); 
 		}
 
 		return arr;
 	}	
+
 	// Get keyarray and ide name and return string represent the keystroke in the ide shortcuts file.
 	keyArrayToString(keyArray, ideName) {
 		var returnVal = " ";
 		for (key in keyMap) {
-			returnVal += getKeyBy
-			getKeyByIde(key, ideName);
+			returnVal += getKeyByIde(key, ideName);
 			returnVal += getKeyByIde("DELIMETER", ideName);
 		}
 
@@ -44,11 +37,11 @@ export default class Utils {
 		return returnVal;
 	}
 
-	getActionIdByIde(actionName, ide) {
-		return actions[actionName]["IDE"][ide];
+	getActionIdByIde(actionName, ideName) {
+		return actions[actionName]['ide'][ideName];
 	}
 
 	getKeyByIde(key,ideName) {
-		return keymapping[key]["IDE"][ideName];
+		return keymapping[key][ideName][0];
 	}
 };
