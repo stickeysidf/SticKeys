@@ -8,7 +8,9 @@ const BrowserWindow = electron.BrowserWindow
 
 const path = require('path')
 const url = require('url')
-const pug = require('electron-pug')({pretty: true});
+const pug = require('electron-pug')({pretty: true}, {
+  actions: ["Step Over", "Step Into", "Step Out"]
+});
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -71,7 +73,7 @@ app.on('ready', () => {
   mainWindow = createWindow();
 
   // Open the DevTools.
-  mainWindow.webContents.openDevTools()
+  // mainWindow.webContents.openDevTools()
 
   const page = mainWindow.webContents;
 
@@ -98,7 +100,4 @@ app.on('activate', function () {
   if (mainWindow === null) {
     createWindow()
   }
-})
-
-// In this file you can include the rest of your app's specific main process
-// code. You can also put them in separate files and require them here.
+});
