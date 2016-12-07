@@ -1,43 +1,55 @@
 var keyPressed = [];
-var keyMapping;
-
+var keyMapping, favIDE, os;
 var setKeyMapping = function (mapping) {
   keyMapping = mapping;
 };
 
-document.addEventListener("keydown", function(event) {
-  var keys = listenKeys(event);
-  var translated = translateKeys(keys.split('+'));
-});
-
-var translateKeys = function (keysArray) {
-  keysArray.forEach((key) => {
-    console.log(key);
+$(document).ready(function () {
+  $('.action-col').on('click', function (e) {
+    e.preventDefault();
+    document.addEventListener("keydown", keyListenr);  
   });
-};
+  
+  var keyListenr = function(event) {
+    var keys = listenKeys(event);
+    var translated = translateKeys(keys.split('+'));
 
-var listenKeys = function (event) {
-  var keys = "";
+    // document.removeEventListener("keydown", keyListenr);
+  };
 
-  if (event.metaKey) {
-    keys += 'COMMAND+';
-  }
-  if (event.ctrlKey) {
-    keys += 'CTRL+';
-  }
-  if (event.shiftKey) {
-    keys += 'SHIFT+';
-  }
-  if (event.altKey) {
-    keys += 'ALT+';
-  }
-  if (event.keyCode > 0) {
-    keys += '' + String.fromCharCode(event.keyCode);
-  }
+  var translateKeys = function (keysArray) {
+    keysArray.forEach((key) => {
+      var mapped = keyMapping[key];
+      if (mapped) {
+        console.log(mapped);
+        // mapped[favIDE][os];
+      }
+    });
+  };
 
-  if (keys.endsWith('+')) {
-    keys = keys.substring(0, keys.length - 1);
-  }
+  var listenKeys = function (event) {
+    var keys = "";
 
-  return keys;
-};
+    if (event.metaKey) {
+      keys += 'COMMAND+';
+    }
+    if (event.ctrlKey) {
+      keys += 'CTRL+';
+    }
+    if (event.shiftKey) {
+      keys += 'SHIFT+';
+    }
+    if (event.altKey) {
+      keys += 'ALT+';
+    }
+    if (event.keyCode > 0) {
+      keys += '' + String.fromCharCode(event.keyCode);
+    }
+
+    if (keys.endsWith('+')) {
+      keys = keys.substring(0, keys.length - 1);
+    }
+
+    return keys;
+  };
+});

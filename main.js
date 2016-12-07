@@ -27,7 +27,7 @@ const pug = require('electron-pug')({pretty: true}, {
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
-var backgroundColor = '#fff'
+var backgroundColor = '#46464e'
 
 function createWindow () {
   const userAgent = '(Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36';
@@ -48,7 +48,6 @@ function createWindow () {
     width: minWidthValue,
     height: minHeightValue,
     resizable: false,
-    icon: process.platform === 'linux' && sticKeysDesktopIcon,
     titleBarStyle: 'hidden-inset',
     backgroundColor: backgroundColor,
     autoHideMenuBar: true,

@@ -3,6 +3,7 @@ html
     title SticKeys
     link(href="css/bulma.css", rel="stylesheet")
     link(href="css/browser.css", rel="stylesheet")
+    script(src="js/jquery-3.1.1.min.js")
     script(src="js/keymaster.js")
     script(src="js/keys.js")
     script.
@@ -12,6 +13,6 @@ html
       div(class="columns is-gapless")
         div(class="column is-one-quarter full-height-column")
           include views/ide.pug
-        div(class="column full-height-column full-height-column")
+        div(class="column")
           include views/shortcuts.pug
     
