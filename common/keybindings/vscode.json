@@ -2,27 +2,6 @@
     {
         "keys": {
             "mac": [
-                "SHIFT",
-                "ALT",
-                "A"
-            ],
-            "win": [
-                "SHIFT",
-                "ALT",
-                "A"
-            ],
-            "linux": [
-                "SHIFT",
-                "ALT",
-                "A"
-            ]
-        },
-        "when": "editorTextFocus && !editorReadonly",
-        "action": "TOGGLE_COMMENT_BLOCK"
-    },
-    {
-        "keys": {
-            "mac": [
                 "COMMAND",
                 "C"
             ],
@@ -37,39 +16,6 @@
         },
         "when": "editorTextFocus",
         "action": "COPY"
-    },
-    {
-        "keys": {
-            "mac": [
-                "COMMAND",
-                "/"
-            ],
-            "win": [
-                "CTRL",
-                "/"
-            ],
-            "linux": [
-                "CTRL",
-                "/"
-            ]
-        },
-        "when": "editorTextFocus && !editorReadonly",
-        "action": "TOGGLE_COMMENT_LINE"
-    },
-    {
-        "keys": {
-            "mac": [
-                "F12"
-            ],
-            "win": [
-                "F12"
-            ],
-            "linux": [
-                "F12"
-            ]
-        },
-        "when": "editorHasDefinitionProvider && editorTextFocus",
-        "action": "GO_TO_DECLARATION"
     },
     {
         "keys": {
