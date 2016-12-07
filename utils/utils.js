@@ -20,11 +20,11 @@ export default class Utils {
     // Get ide name and userKeys json files, and returns an array of ActionName:{actionId:***, shortcut:****}, the shortcut as string
 	getNormalizedListByIDE(ideName, userKeys) {
 		var arr = [];
-		for (action in userActionsJson) {
+		for (action of userActionsJson) {
 			var obj = {};
-			obj.actionId = getActionIdByIde(action, ideName);
-			obj.shortcut = keyArrayToString(userkeys[action].shortCut)
-			arr[action] = obj; 
+			obj.action = getActionIdByIde(action.action, ideName);
+			obj.keys = keyArrayToString(userkeys[action].keys)
+			arr.append(obj); 
 		}
 
 		return arr;
@@ -34,7 +34,7 @@ export default class Utils {
 		var returnVal = " ";
 		for (key in keyMap) {
 			returnVal += getKeyBy
-			Ide(key, ideName);
+			getKeyByIIde(key, ideName);
 			returnVal += getKeyByIde("DELIMETER", ideName);
 		}
 
