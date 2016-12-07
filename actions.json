@@ -14,10 +14,10 @@
         }
 },
     "DEBUG": {
-        "name": "",
+        "name": "Debug",
         "ide": {
             "vscode": "workbench.action.debug.run",
-            "androidstudio": ""
+            "androidstudio": "Debug"
         }
 },
     "STEP_OVER": {
