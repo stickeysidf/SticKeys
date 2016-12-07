@@ -1,7 +1,9 @@
 {
     "CTRL": {
         "androidstudio": {
-            "macos": "^"
+            "macos": "ctrl",
+            "win": "ctrl",
+            "linux": "ctrl"
         },
         "vscode": {
             "macos": "ctrl",
@@ -9,9 +11,23 @@
             "linux": "ctrl"
         }
     },
-    "ALT": {
+    "COMMAND" : {
+      "androidstudio": {
+            "macos": "meta",
+            "win": "meta",
+            "linux": "meta"
+        },
+        "vscode": {
+            "macos": "cmd",
+            "win": "cmd",
+            "linux": "cmd"
+        }  
+    },
+    "ALT" : {
         "androidstudio": {
-            "macos": "⌥"
+            "macos": "alt"
+            "win" : "alt",
+            "linux": "alt"
         },
         "vscode": {
             "macos": "alt",
