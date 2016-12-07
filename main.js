@@ -2,11 +2,6 @@ const electron = require('electron')
 const fs = require('fs');
 const IDELocator = require('./ide_locators/locator');
 
-let ides = IDELocator.getIdes();
-for (let i in ides) {
-  console.log(ides[i] + " : " + IDELocator.isInstalled(ides[i]));
-}
-
 // Module to control application life.
 const app = electron.app
 // Module to create native browser window.
@@ -23,8 +18,8 @@ const pug = require('electron-pug')({pretty: true}, {
     savedSign: __dirname + '/img/savedsign.png'
   },
   ides:[ 
-    {name: 'Visual Studio Code', img: __dirname + '/img/vscode-icon.ico', saved: false }, 
-    {name: 'Android Studio', img: __dirname + '/img/as-icon.png', saved: false }],
+    {name: 'Visual Studio Code', img: __dirname + '/img/vscode-icon.ico', saved: false, own: IDELocator.isInstalled("vcode")}, 
+    {name: 'Android Studio', img: __dirname + '/img/as-icon.png', saved: false, own:  IDELocator.isInstalled("android_studio")}],
   actions: ["Step Over", "Step Into", "Step Out"]
 });
 
