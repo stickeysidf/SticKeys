@@ -6,7 +6,16 @@ var setKeyMapping = function (mapping) {
 };
 
 var bindActionKeys = function () {
-  return "1";
+  var ide;
+  if (!favIDE) {
+      favIDE = localStorage.getItem("favIDE")
+  }
+
+  if (favIDE == 'vscode') {
+    ide = new VSCode('macos');
+  } else if (favIDE == 'androidstudio') {
+    
+  }
 };
 
 $(document).ready(function () {
