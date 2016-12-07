@@ -1,5 +1,13 @@
 html
   head
     title SticKeys
+    link(href="css/bulma.css", rel="stylesheet")
+    link(href="css/browser.css", rel="stylesheet")
   body
-    include views/shortcuts.pug
+    div(class="container")
+      div(class="columns is-gapless")
+        div(class="column is-one-quarter full-height-column")
+          include views/ide.pug
+        div(class="column full-height-column full-height-column")
+          include views/shortcuts.pug
+    

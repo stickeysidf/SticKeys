@@ -76,7 +76,7 @@ app.on('ready', () => {
   const page = mainWindow.webContents;
 
   page.on('dom-ready', () => {
-    page.insertCSS(fs.readFileSync(path.join(__dirname, 'browser.css'), 'utf8'));
+    page.insertCSS(fs.readFileSync(path.join(__dirname, '/css/browser.css'), 'utf8'));
 
     mainWindow.show();
   });
