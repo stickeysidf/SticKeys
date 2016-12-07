@@ -31,6 +31,7 @@ export default class AndroidStudio extends IDE {
     }
 
     loadDefaultKeyBindings() {
-        return defaultAndroidStudio;
+        var defualtKeybindings = this.utils.getNormalizedListByIDE(this.name, defaultAndroidStudio);
+        return defualtKeybindings;
     }
 };

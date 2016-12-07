@@ -42,6 +42,6 @@ export default class Utils {
 	}
 
 	getKeyByIde(key,ideName) {
-		return keymapping[key][ideName][0];
+		return keymapping[key][ideName][this.platform];
 	}
 };
