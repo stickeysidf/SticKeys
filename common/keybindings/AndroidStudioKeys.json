@@ -1,0 +1,1216 @@
+[
+    {
+        "action": "GENERAL",
+        "windows": [
+            ""
+        ],
+        "mac": [
+            ""
+        ]
+    },
+    {
+        "action": "SAVE_ALL",
+        "windows": [
+            "CTRL",
+            "S"
+        ],
+        "mac": [
+            "COMMAND",
+            "S"
+        ]
+    },
+    {
+        "action": "SYNCHRONIZE",
+        "windows": [
+            "CTRL",
+            "ALT",
+            "Y"
+        ],
+        "mac": [
+            "COMMAND",
+            "OPTION",
+            "Y"
+        ]
+    },
+    {
+        "action": "MAXIMIZE/MINIMIZE_EDITOR",
+        "windows": [
+            "CTRL",
+            "SHIFT",
+            "F12"
+        ],
+        "mac": [
+            "CTRL",
+            "COMMAND",
+            "F12"
+        ]
+    },
+    {
+        "action": "ADD_TO_FAVORITES",
+        "windows": [
+            "ALT",
+            "SHIFT",
+            "F"
+        ],
+        "mac": [
+            "OPTION",
+            "SHIFT",
+            "F"
+        ]
+    },
+    {
+        "action": "INSPECT_CURRENT_FILE_WITH_CURRENT_PROFILE",
+        "windows": [
+            "ALT",
+            "SHIFT",
+            "I"
+        ],
+        "mac": [
+            "OPTION",
+            "SHIFT",
+            "I"
+        ]
+    },
+    {
+        "action": "QUICK_SWITCH_SCHEME",
+        "windows": [
+            "CTRL",
+            "`(BACKQUOTE)"
+        ],
+        "mac": [
+            "CTRL",
+            "`(BACKQUOTE)"
+        ]
+    },
+    {
+        "action": "OPEN_SETTINGS_DIALOGUE",
+        "windows": [
+            "CTRL",
+            "ALT",
+            "S"
+        ],
+        "mac": [
+            "COMMAND",
+            ",(COMMA)"
+        ]
+    },
+    {
+        "action": "OPEN_PROJECT_STRUCTURE_DIALOG",
+        "windows": [
+            "CTRL",
+            "ALT",
+            "SHIFT",
+            "S"
+        ],
+        "mac": [
+            "COMMAND",
+            ";(SEMICOLON)"
+        ]
+    },
+    {
+        "action": "SWITCH_BETWEEN_TABS_AND_TOOL_WINDOW",
+        "windows": [
+            "CTRL",
+            "TAB"
+        ],
+        "mac": [
+            "CTRL",
+            "TAB"
+        ]
+    },
+    {
+        "action": "NAVIGATING_AND_SEARCHING_WITHIN_STUDIO",
+        "windows": [
+            ""
+        ],
+        "mac": [
+            ""
+        ]
+    },
+    {
+        "action": "SEARCH_EVERYTHING_(INCLUDING_CODE_AND_MENUS)",
+        "windows": [
+            "PRESSSHIFTTWICE"
+        ],
+        "mac": [
+            "PRESSSHIFTTWICE"
+        ]
+    },
+    {
+        "action": "FIND",
+        "windows": [
+            "CTRL",
+            "F"
+        ],
+        "mac": [
+            "COMMAND",
+            "F"
+        ]
+    },
+    {
+        "action": "FIND_NEXT",
+        "windows": [
+            "F3"
+        ],
+        "mac": [
+            "COMMAND",
+            "G"
+        ]
+    },
+    {
+        "action": "FIND_PREVIOUS",
+        "windows": [
+            "SHIFT",
+            "F3"
+        ],
+        "mac": [
+            "COMMAND",
+            "SHIFT",
+            "G"
+        ]
+    },
+    {
+        "action": "REPLACE",
+        "windows": [
+            "CTRL",
+            "R"
+        ],
+        "mac": [
+            "COMMAND",
+            "R"
+        ]
+    },
+    {
+        "action": "FIND_ACTION",
+        "windows": [
+            "CTRL",
+            "SHIFT",
+            "A"
+        ],
+        "mac": [
+            "COMMAND",
+            "SHIFT",
+            "A"
+        ]
+    },
+    {
+        "action": "SEARCH_BY_SYMBOL_NAME",
+        "windows": [
+            "CTRL",
+            "ALT",
+            "SHIFT",
+            "N"
+        ],
+        "mac": [
+            "COMMAND",
+            "OPTION",
+            "O"
+        ]
+    },
+    {
+        "action": "FIND_CLASS",
+        "windows": [
+            "CTRL",
+            "N"
+        ],
+        "mac": [
+            "COMMAND",
+            "O"
+        ]
+    },
+    {
+        "action": "FIND_FILE_(INSTEAD_OF_CLASS)",
+        "windows": [
+            "CTRL",
+            "SHIFT",
+            "N"
+        ],
+        "mac": [
+            "COMMAND",
+            "SHIFT",
+            "O"
+        ]
+    },
+    {
+        "action": "FIND_IN_PATH",
+        "windows": [
+            "CTRL",
+            "SHIFT",
+            "F"
+        ],
+        "mac": [
+            "COMMAND",
+            "SHIFT",
+            "F"
+        ]
+    },
+    {
+        "action": "OPEN_FILE_STRUCTURE_POP-UP",
+        "windows": [
+            "CTRL",
+            "F12"
+        ],
+        "mac": [
+            "COMMAND",
+            "F12"
+        ]
+    },
+    {
+        "action": "NAVIGATE_BETWEEN_OPEN_EDITOR_TABS",
+        "windows": [
+            "ALT",
+            "RIGHT/LEFTARROW"
+        ],
+        "mac": [
+            "CTRL",
+            "RIGHT/LEFTARROW"
+        ]
+    },
+    {
+        "action": "JUMP_TO_SOURCE",
+        "windows": [
+            "F4/CTRL",
+            "ENTER"
+        ],
+        "mac": [
+            "F4/COMMAND",
+            "DOWNARROW"
+        ]
+    },
+    {
+        "action": "OPEN_CURRENT_EDITOR_TAB_IN_NEW_WINDOW",
+        "windows": [
+            "SHIFT",
+            "F4"
+        ],
+        "mac": [
+            "SHIFT",
+            "F4"
+        ]
+    },
+    {
+        "action": "RECENTLY_OPENED_FILES_POP-UP",
+        "windows": [
+            "CTRL",
+            "E"
+        ],
+        "mac": [
+            "COMMAND",
+            "E"
+        ]
+    },
+    {
+        "action": "RECENTLY_EDITED_FILES_POP-UP",
+        "windows": [
+            "CTRL",
+            "SHIFT",
+            "E"
+        ],
+        "mac": [
+            "COMMAND",
+            "SHIFT",
+            "E"
+        ]
+    },
+    {
+        "action": "GO_TO_LAST_EDIT_LOCATION",
+        "windows": [
+            "CTRL",
+            "SHIFT",
+            "BACKSPACE"
+        ],
+        "mac": [
+            "COMMAND",
+            "SHIFT",
+            "BACKSPACE"
+        ]
+    },
+    {
+        "action": "CLOSE_ACTIVE_EDITOR_TAB",
+        "windows": [
+            "CTRL",
+            "F4"
+        ],
+        "mac": [
+            "COMMAND",
+            "W"
+        ]
+    },
+    {
+        "action": "RETURN_TO_EDITOR_WINDOW_FROM_A_TOOL_WINDOW",
+        "windows": [
+            "ESC"
+        ],
+        "mac": [
+            "ESC"
+        ]
+    },
+    {
+        "action": "HIDE_ACTIVE_OR_LAST_ACTIVE_TOOL_WINDOW",
+        "windows": [
+            "SHIFT",
+            "ESC"
+        ],
+        "mac": [
+            "SHIFT",
+            "ESC"
+        ]
+    },
+    {
+        "action": "GO_TO_LINE",
+        "windows": [
+            "CTRL",
+            "G"
+        ],
+        "mac": [
+            "COMMAND",
+            "L"
+        ]
+    },
+    {
+        "action": "OPEN_TYPE_HIERARCHY",
+        "windows": [
+            "CTRL",
+            "H"
+        ],
+        "mac": [
+            "CTRL",
+            "H"
+        ]
+    },
+    {
+        "action": "OPEN_METHOD_HIERARCHY",
+        "windows": [
+            "CTRL",
+            "SHIFT",
+            "H"
+        ],
+        "mac": [
+            "COMMAND",
+            "SHIFT",
+            "H"
+        ]
+    },
+    {
+        "action": "OPEN_CALL_HIERARCHY",
+        "windows": [
+            "CTRL",
+            "ALT",
+            "H"
+        ],
+        "mac": [
+            "CTRL",
+            "OPTION",
+            "H"
+        ]
+    },
+    {
+        "action": "WRITING_CODE",
+        "windows": [
+            ""
+        ],
+        "mac": [
+            ""
+        ]
+    },
+    {
+        "action": "GENERATE_CODE_(GETTERS,_SETTERS,_CONSTRUCTORS,_HASHCODE/EQUALS,_TOSTRING,_NEW_FILE,_NEW_CLASS)",
+        "windows": [
+            "ALT",
+            "INSERT"
+        ],
+        "mac": [
+            "COMMAND",
+            "N"
+        ]
+    },
+    {
+        "action": "OVERRIDE_METHODS",
+        "windows": [
+            "CTRL",
+            "O"
+        ],
+        "mac": [
+            "CTRL",
+            "O"
+        ]
+    },
+    {
+        "action": "IMPLEMENT_METHODS",
+        "windows": [
+            "CTRL",
+            "I"
+        ],
+        "mac": [
+            "CTRL",
+            "I"
+        ]
+    },
+    {
+        "action": "SURROUND_WITH_(IF...ELSE_/_TRY...CATCH_/_ETC.)",
+        "windows": [
+            "CTRL",
+            "ALT",
+            "T"
+        ],
+        "mac": [
+            "COMMAND",
+            "OPTION",
+            "T"
+        ]
+    },
+    {
+        "action": "DELETE_LINE_AT_CARET",
+        "windows": [
+            "CTRL",
+            "Y"
+        ],
+        "mac": [
+            "COMMAND",
+            "BACKSPACE"
+        ]
+    },
+    {
+        "action": "COLLAPSE/EXPAND_CURRENT_CODE_BLOCK",
+        "windows": [
+            "CTRL",
+            "MINUS/PLUS"
+        ],
+        "mac": [
+            "COMMAND",
+            "MINUS/PLUS"
+        ]
+    },
+    {
+        "action": "COLLAPSE/EXPAND_ALL_CODE_BLOCKS",
+        "windows": [
+            "CTRL",
+            "SHIFT",
+            "MINUS/PLUS"
+        ],
+        "mac": [
+            "COMMAND",
+            "SHIFT",
+            "MINUS/PLUS"
+        ]
+    },
+    {
+        "action": "DUPLICATE_CURRENT_LINE_OR_SELECTION",
+        "windows": [
+            "CTRL",
+            "D"
+        ],
+        "mac": [
+            "COMMAND",
+            "D"
+        ]
+    },
+    {
+        "action": "BASIC_CODE_COMPLETION",
+        "windows": [
+            "CTRL",
+            "SPACE"
+        ],
+        "mac": [
+            "CTRL",
+            "SPACE"
+        ]
+    },
+    {
+        "action": "SMART_CODE_COMPLETION_(FILTERS_THE_LIST_OF_METHODS_AND_VARIABLES_BY_EXPECTED_TYPE)",
+        "windows": [
+            "CTRL",
+            "SHIFT",
+            "SPACE"
+        ],
+        "mac": [
+            "CTRL",
+            "SHIFT",
+            "SPACE"
+        ]
+    },
+    {
+        "action": "COMPLETE_STATEMENT",
+        "windows": [
+            "CTRL",
+            "SHIFT",
+            "ENTER"
+        ],
+        "mac": [
+            "COMMAND",
+            "SHIFT",
+            "ENTER"
+        ]
+    },
+    {
+        "action": "QUICK_DOCUMENTATION_LOOKUP",
+        "windows": [
+            "CTRL",
+            "Q"
+        ],
+        "mac": [
+            "CTRL",
+            "J"
+        ]
+    },
+    {
+        "action": "SHOW_PARAMETERS_FOR_SELECTED_METHOD",
+        "windows": [
+            "CTRL",
+            "P"
+        ],
+        "mac": [
+            "COMMAND",
+            "P"
+        ]
+    },
+    {
+        "action": "GO_TO_DECLARATION_(DIRECTLY)",
+        "windows": [
+            "CTRL",
+            "BORCTRL",
+            "CLICK"
+        ],
+        "mac": [
+            "COMMAND",
+            "BORCOMMAND",
+            "CLICK"
+        ]
+    },
+    {
+        "action": "GO_TO_IMPLEMENTATIONS",
+        "windows": [
+            "CTRL",
+            "ALT",
+            "B"
+        ],
+        "mac": [
+            "COMMAND",
+            "ALT",
+            "B"
+        ]
+    },
+    {
+        "action": "GO_TO_SUPER-METHOD/SUPER-CLASS",
+        "windows": [
+            "CTRL",
+            "U"
+        ],
+        "mac": [
+            "COMMAND",
+            "U"
+        ]
+    },
+    {
+        "action": "OPEN_QUICK_DEFINITION_LOOKUP",
+        "windows": [
+            "CTRL",
+            "SHIFT",
+            "I"
+        ],
+        "mac": [
+            "COMMAND",
+            "Y"
+        ]
+    },
+    {
+        "action": "TOGGLE_PROJECT_TOOL_WINDOW_VISIBILITY",
+        "windows": [
+            "ALT",
+            "1"
+        ],
+        "mac": [
+            "COMMAND",
+            "1"
+        ]
+    },
+    {
+        "action": "TOGGLE_BOOKMARK",
+        "windows": [
+            "F11"
+        ],
+        "mac": [
+            "F3"
+        ]
+    },
+    {
+        "action": "TOGGLE_BOOKMARK_WITH_MNEMONIC",
+        "windows": [
+            "CTRL",
+            "F11"
+        ],
+        "mac": [
+            "OPTION",
+            "F3"
+        ]
+    },
+    {
+        "action": "COMMENT/UNCOMMENT_WITH_LINE_COMMENT",
+        "windows": [
+            "CTRL",
+            "/"
+        ],
+        "mac": [
+            "COMMAND",
+            "/"
+        ]
+    },
+    {
+        "action": "COMMENT/UNCOMMENT_WITH_BLOCK_COMMENT",
+        "windows": [
+            "CTRL",
+            "SHIFT",
+            "/"
+        ],
+        "mac": [
+            "COMMAND",
+            "SHIFT",
+            "/"
+        ]
+    },
+    {
+        "action": "SELECT_SUCCESSIVELY_INCREASING_CODE_BLOCKS",
+        "windows": [
+            "CTRL",
+            "W"
+        ],
+        "mac": [
+            "OPTION",
+            "UP"
+        ]
+    },
+    {
+        "action": "DECREASE_CURRENT_SELECTION_TO_PREVIOUS_STATE",
+        "windows": [
+            "CTRL",
+            "SHIFT",
+            "W"
+        ],
+        "mac": [
+            "OPTION",
+            "DOWN"
+        ]
+    },
+    {
+        "action": "MOVE_TO_CODE_BLOCK_START",
+        "windows": [
+            "CTRL",
+            "["
+        ],
+        "mac": [
+            "OPTION",
+            "COMMAND",
+            "["
+        ]
+    },
+    {
+        "action": "MOVE_TO_CODE_BLOCK_END",
+        "windows": [
+            "CTRL",
+            "]"
+        ],
+        "mac": [
+            "OPTION",
+            "COMMAND",
+            "]"
+        ]
+    },
+    {
+        "action": "SELECT_TO_THE_CODE_BLOCK_START",
+        "windows": [
+            "CTRL",
+            "SHIFT",
+            "["
+        ],
+        "mac": [
+            "OPTION",
+            "COMMAND",
+            "SHIFT",
+            "["
+        ]
+    },
+    {
+        "action": "SELECT_TO_THE_CODE_BLOCK_END",
+        "windows": [
+            "CTRL",
+            "SHIFT",
+            "]"
+        ],
+        "mac": [
+            "OPTION",
+            "COMMAND",
+            "SHIFT",
+            "]"
+        ]
+    },
+    {
+        "action": "DELETE_TO_END_OF_WORD",
+        "windows": [
+            "CTRL",
+            "DELETE"
+        ],
+        "mac": [
+            "OPTION",
+            "DELETE"
+        ]
+    },
+    {
+        "action": "DELETE_TO_START_OF_WORD",
+        "windows": [
+            "CTRL",
+            "BACKSPACE"
+        ],
+        "mac": [
+            "OPTION",
+            "BACKSPACE"
+        ]
+    },
+    {
+        "action": "OPTIMIZE_IMPORTS",
+        "windows": [
+            "CTRL",
+            "ALT",
+            "O"
+        ],
+        "mac": [
+            "CTRL",
+            "OPTION",
+            "O"
+        ]
+    },
+    {
+        "action": "PROJECT_QUICK_FIX_(SHOW_INTENTION_ACTIONS_AND_QUICK_FIXES)",
+        "windows": [
+            "ALT",
+            "ENTER"
+        ],
+        "mac": [
+            "OPTION",
+            "ENTER"
+        ]
+    },
+    {
+        "action": "REFORMAT_CODE",
+        "windows": [
+            "CTRL",
+            "ALT",
+            "L"
+        ],
+        "mac": [
+            "COMMAND",
+            "OPTION",
+            "L"
+        ]
+    },
+    {
+        "action": "AUTO-INDENT_LINES",
+        "windows": [
+            "CTRL",
+            "ALT",
+            "I"
+        ],
+        "mac": [
+            "CTRL",
+            "OPTION",
+            "I"
+        ]
+    },
+    {
+        "action": "INDENT/UNINDENT_LINES",
+        "windows": [
+            "TAB/SHIFT",
+            "TAB"
+        ],
+        "mac": [
+            "TAB/SHIFT",
+            "TAB"
+        ]
+    },
+    {
+        "action": "SMART_LINE_JOIN",
+        "windows": [
+            "CTRL",
+            "SHIFT",
+            "J"
+        ],
+        "mac": [
+            "CTRL",
+            "SHIFT",
+            "J"
+        ]
+    },
+    {
+        "action": "SMART_LINE_SPLIT",
+        "windows": [
+            "CTRL",
+            "ENTER"
+        ],
+        "mac": [
+            "COMMAND",
+            "ENTER"
+        ]
+    },
+    {
+        "action": "START_NEW_LINE",
+        "windows": [
+            "SHIFT",
+            "ENTER"
+        ],
+        "mac": [
+            "SHIFT",
+            "ENTER"
+        ]
+    },
+    {
+        "action": "NEXT/PREVIOUS_HIGHLIGHTED_ERROR",
+        "windows": [
+            "F2/SHIFT",
+            "F2"
+        ],
+        "mac": [
+            "F2/SHIFT",
+            "F2"
+        ]
+    },
+    {
+        "action": "BUILD_AND_RUN",
+        "windows": [
+            ""
+        ],
+        "mac": [
+            ""
+        ]
+    },
+    {
+        "action": "BUILD",
+        "windows": [
+            "CTRL",
+            "F9"
+        ],
+        "mac": [
+            "COMMAND",
+            "F9"
+        ]
+    },
+    {
+        "action": "BUILD_AND_RUN",
+        "windows": [
+            "SHIFT",
+            "F10"
+        ],
+        "mac": [
+            "CTRL",
+            "R"
+        ]
+    },
+    {
+        "action": "DEBUGGING",
+        "windows": [
+            ""
+        ],
+        "mac": [
+            ""
+        ]
+    },
+    {
+        "action": "DEBUG",
+        "windows": [
+            "SHIFT",
+            "F9"
+        ],
+        "mac": [
+            "CTRL",
+            "D"
+        ]
+    },
+    {
+        "action": "STEP_OVER",
+        "windows": [
+            "F8"
+        ],
+        "mac": [
+            "F8"
+        ]
+    },
+    {
+        "action": "STEP_INTO",
+        "windows": [
+            "F7"
+        ],
+        "mac": [
+            "F7"
+        ]
+    },
+    {
+        "action": "SMART_STEP_INTO",
+        "windows": [
+            "SHIFT",
+            "F7"
+        ],
+        "mac": [
+            "SHIFT",
+            "F7"
+        ]
+    },
+    {
+        "action": "STEP_OUT",
+        "windows": [
+            "SHIFT",
+            "F8"
+        ],
+        "mac": [
+            "SHIFT",
+            "F8"
+        ]
+    },
+    {
+        "action": "RUN_TO_CURSOR",
+        "windows": [
+            "ALT",
+            "F9"
+        ],
+        "mac": [
+            "OPTION",
+            "F9"
+        ]
+    },
+    {
+        "action": "EVALUATE_EXPRESSION",
+        "windows": [
+            "ALT",
+            "F8"
+        ],
+        "mac": [
+            "OPTION",
+            "F8"
+        ]
+    },
+    {
+        "action": "RESUME_PROGRAM",
+        "windows": [
+            "F9"
+        ],
+        "mac": [
+            "COMMAND",
+            "OPTION",
+            "R"
+        ]
+    },
+    {
+        "action": "TOGGLE_BREAKPOINT",
+        "windows": [
+            "CTRL",
+            "F8"
+        ],
+        "mac": [
+            "COMMAND",
+            "F8"
+        ]
+    },
+    {
+        "action": "VIEW_BREAKPOINTS",
+        "windows": [
+            "CTRL",
+            "SHIFT",
+            "F8"
+        ],
+        "mac": [
+            "COMMAND",
+            "SHIFT",
+            "F8"
+        ]
+    },
+    {
+        "action": "REFACTORING",
+        "windows": [
+            ""
+        ],
+        "mac": [
+            ""
+        ]
+    },
+    {
+        "action": "COPY",
+        "windows": [
+            "F5"
+        ],
+        "mac": [
+            "F5"
+        ]
+    },
+    {
+        "action": "MOVE",
+        "windows": [
+            "F6"
+        ],
+        "mac": [
+            "F6"
+        ]
+    },
+    {
+        "action": "SAFE_DELETE",
+        "windows": [
+            "ALT",
+            "DELETE"
+        ],
+        "mac": [
+            "COMMAND",
+            "DELETE"
+        ]
+    },
+    {
+        "action": "RENAME",
+        "windows": [
+            "SHIFT",
+            "F6"
+        ],
+        "mac": [
+            "SHIFT",
+            "F6"
+        ]
+    },
+    {
+        "action": "CHANGE_SIGNATURE",
+        "windows": [
+            "CTRL",
+            "F6"
+        ],
+        "mac": [
+            "COMMAND",
+            "F6"
+        ]
+    },
+    {
+        "action": "INLINE",
+        "windows": [
+            "CTRL",
+            "ALT",
+            "N"
+        ],
+        "mac": [
+            "COMMAND",
+            "OPTION",
+            "N"
+        ]
+    },
+    {
+        "action": "EXTRACT_METHOD",
+        "windows": [
+            "CTRL",
+            "ALT",
+            "M"
+        ],
+        "mac": [
+            "COMMAND",
+            "OPTION",
+            "M"
+        ]
+    },
+    {
+        "action": "EXTRACT_VARIABLE",
+        "windows": [
+            "CTRL",
+            "ALT",
+            "V"
+        ],
+        "mac": [
+            "COMMAND",
+            "OPTION",
+            "V"
+        ]
+    },
+    {
+        "action": "EXTRACT_FIELD",
+        "windows": [
+            "CTRL",
+            "ALT",
+            "F"
+        ],
+        "mac": [
+            "COMMAND",
+            "OPTION",
+            "F"
+        ]
+    },
+    {
+        "action": "EXTRACT_CONSTANT",
+        "windows": [
+            "CTRL",
+            "ALT",
+            "C"
+        ],
+        "mac": [
+            "COMMAND",
+            "OPTION",
+            "C"
+        ]
+    },
+    {
+        "action": "EXTRACT_PARAMETER",
+        "windows": [
+            "CTRL",
+            "ALT",
+            "P"
+        ],
+        "mac": [
+            "COMMAND",
+            "OPTION",
+            "P"
+        ]
+    },
+    {
+        "action": "VERSION_CTRL_/_LOCAL_HISTORY",
+        "windows": [
+            ""
+        ],
+        "mac": [
+            ""
+        ]
+    },
+    {
+        "action": "COMMIT_PROJECT_TO_VCS",
+        "windows": [
+            "CTRL",
+            "K"
+        ],
+        "mac": [
+            "COMMAND",
+            "K"
+        ]
+    },
+    {
+        "action": "UPDATE_PROJECT_FROM_VCS",
+        "windows": [
+            "CTRL",
+            "T"
+        ],
+        "mac": [
+            "COMMAND",
+            "T"
+        ]
+    },
+    {
+        "action": "VIEW_RECENT_CHANGES",
+        "windows": [
+            "ALT",
+            "SHIFT",
+            "C"
+        ],
+        "mac": [
+            "OPTION",
+            "SHIFT",
+            "C"
+        ]
+    },
+    {
+        "action": "OPEN_VCS_POPUP",
+        "windows": [
+            "ALT",
+            "`(BACKQUOTE)"
+        ],
+        "mac": [
+            "CTRL",
+            "V"
+        ]
+    }
+]
