@@ -3,12 +3,12 @@ section(class="section-actions")
         br() 
         br()
         div(class="column is-12")
-        each action in actions
+        each action, key in actions
             div(class="column is-12")
                 div(class="columns action-col")
                     div(class="column is-1")
                     div(class="column is-5")
                         span(class="action-name title is-4")= action.name
                     div(class="column has-text-right")
-                        span(class="action-shorcut title is-5 padding-right")
+                        span(class="action-shorcut title is-5 padding-right" id=key)
                 hr()

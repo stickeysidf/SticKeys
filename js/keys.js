@@ -5,19 +5,6 @@ var setKeyMapping = function (mapping) {
   keyMapping = mapping;
 };
 
-var bindActionKeys = function () {
-  var ide;
-  if (!favIDE) {
-      favIDE = localStorage.getItem("favIDE")
-  }
-
-  if (favIDE == 'vscode') {
-    ide = new VSCode('macos');
-  } else if (favIDE == 'androidstudio') {
-    
-  }
-};
-
 $(document).ready(function () {
   $('.action-col').on('click', function (e) {
     e.preventDefault();
@@ -73,4 +60,22 @@ $(document).ready(function () {
 
     return keys;
   };
+
+  var bindActionKeys = function () {
+    var ide;
+    if (!favIDE) {
+        favIDE = localStorage.getItem("favIDE")
+    }
+    
+    favIDE = 'androidstudio';
+
+    if (favIDE == 'vscode') {
+      ide = new VSCode('macos');
+    } else if (favIDE == 'androidstudio') {
+      ide = new AndroidStudio('macos');
+    }
+
+    console.log(ide.loadDefaultKeyBindings());
+  };
+  bindActionKeys();
 });
