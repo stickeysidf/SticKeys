@@ -1,5 +1,5 @@
-html,body { height: 100%; margin: 0px; padding: 0px; }
-.section { height: 100vh; }
+html,body { height: 100%; margin: 0px; padding: 0px; overflow: hidden}
+.section { height: 100vh; padding: 0px; }
 
 .full-height-column {
     margin:0; 
@@ -9,6 +9,27 @@ html,body { height: 100%; margin: 0px; padding: 0px; }
 
 .ide-list {
     background-color: #2C2B33;
+}
+
+.title {
+    color: #D1D1D9;
+    text-align: center;
+    margin-top: 180px;
+}
+
+.draggable-background {
+    /* Make the navbar the windows's draggable region */
+    -webkit-app-region: drag;
+     /*background-color: red;*/
+     background-image: url("../SticKeys_Icon@512.png");
+     background-repeat: no-repeat;
+     background-size: 200px 200px;
+     background-position: center;
+     height: 230px;
+}
+
+.line-separator{
+    border-bottom:1px solid #fff;
 }
 
 .shortcuts-list {

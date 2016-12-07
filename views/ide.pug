@@ -1,1 +1,8 @@
 section(class="section ide-list")
+    div(class="columns is-gapless is-multiline")
+        div(class="column is-12 draggable-background line-separator")
+            figure(class="image is-51x46")
+                p(class="title is-3") SticKeys
+                ul 
+                each ide in ides
+                  li = ide

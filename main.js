@@ -8,7 +8,8 @@ const BrowserWindow = electron.BrowserWindow
 
 const path = require('path')
 const url = require('url')
-const pug = require('electron-pug')({pretty: true});
+const pug = require('electron-pug')({pretty: true}, { 
+  ides:[ 'Visual Studio Code', 'Android Studio'] });
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -71,7 +72,7 @@ app.on('ready', () => {
   mainWindow = createWindow();
 
   // Open the DevTools.
-  mainWindow.webContents.openDevTools()
+  // mainWindow.webContents.openDevTools()
 
   const page = mainWindow.webContents;
 
