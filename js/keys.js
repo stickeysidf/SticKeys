@@ -1,7 +1,12 @@
 var keyPressed = [];
 var keyMapping, favIDE, os;
+
 var setKeyMapping = function (mapping) {
   keyMapping = mapping;
+};
+
+var bindActionKeys = function () {
+  return "1";
 };
 
 $(document).ready(function () {
@@ -18,11 +23,18 @@ $(document).ready(function () {
   };
 
   var translateKeys = function (keysArray) {
+    if (!favIDE) {
+      favIDE = localStorage.getItem("favIDE")
+    }
+
+    if (!favIDE || !os) {
+      return;
+    }
+
     keysArray.forEach((key) => {
       var mapped = keyMapping[key];
       if (mapped) {
-        console.log(mapped);
-        // mapped[favIDE][os];
+        console.log(mapped[favIDE]);
       }
     });
   };

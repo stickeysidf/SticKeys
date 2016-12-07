@@ -21,7 +21,11 @@ const pug = require('electron-pug')({pretty: true}, {
     {name: 'Visual Studio Code', img: __dirname + '/img/vscode-icon.ico', saved: false, own: IDELocator.isInstalled("vcode")}, 
     {name: 'Android Studio', img: __dirname + '/img/as-icon.png', saved: false, own:  IDELocator.isInstalled("android_studio")}],
   actions: require('./actions.json'),
-  keyMapping: require('./keymapping.json')
+  keyMapping: require('./keymapping.json'),
+  ideMapping: {
+    'androidstudio': require('./common/keybindings/androidstudio.json'),
+    'vscode': require('./common/keybindings/vscode.json') 
+  }
 });
 
 // Keep a global reference of the window object, if you don't, the window will

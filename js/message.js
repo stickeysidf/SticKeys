@@ -1,14 +1,16 @@
 window.onload = function() {
 
+  if (localStorage.getItem("favIDE")) {
+    document.getElementById("idebox").remove();
+  }
+
   document.getElementById('Visual Studio Code').addEventListener('click', function (e) {
-        favoriteIDE = 'Visual Studio Code';
-        console.log('Visual Studio Code');
+        localStorage.setItem("favIDE", "vscode");
         document.getElementById("idebox").remove();
   });
 
   document.getElementById('Android Studio').addEventListener('click', function (e) {
-          favoriteIDE = 'Android Studio';
-          console.log('Android Studio');
+          localStorage.setItem("favIDE", "androidstudio");
           document.getElementById("idebox").remove();
   });
 
