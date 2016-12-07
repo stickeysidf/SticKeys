@@ -1,6 +1,6 @@
 {
     "CTRL": {
-        "xcode": {
+        "androidstudio": {
             "macos": "^"
         },
         "vscode": {
@@ -9,14 +9,753 @@
             "linux": "ctrl"
         }
     },
-    "ATL": {
-        "xcode": {
+    "ALT": {
+        "androidstudio": {
             "macos": "⌥"
         },
         "vscode": {
             "macos": "alt",
             "win": "alt",
             "linux": "alt"
+        }
+    },
+    "SHIFT" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+    "DELIMETER" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+    "WINKEY" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+    "TAB" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+    "NUM_LOCK" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+    "-" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+    "ENTER" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+    "INSERT" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+    "DELETE" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+    "=" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+    "PAGE_UP" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+    "PAGE_DOWN" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+    "END" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+    "HOME" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "F1" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "F2" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "F3" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "F4" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "F5" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "F6" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "F7" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "F8" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "F9" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "F10" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "F11" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "F12" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "BACKSPACE" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "ESC" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "~" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "*" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "/" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+    "-" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "A" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "B" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "C" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "D" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "E" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "F" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "G" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "H" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "I" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "J" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "K" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "L" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "M" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "N" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "O" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "P" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "Q" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "R" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "S" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "T" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "U" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "V" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "W" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "X" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "Y" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        }
+    },
+
+    "Z" : {
+        "androidstudio": {
+            "macos": "",
+            "win": "",
+            "linux": ""
+        },
+        "vscode": {
+            "macos": "",
+            "win": "",
+            "linux": ""
         }
     }
 }
