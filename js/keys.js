@@ -4,10 +4,6 @@ var keyMapping;
 var setKeyMapping = function (mapping) {
   keyMapping = mapping;
 };
-// var keys = setInterval(function(){ 
-//   keyPressed = key.getPressedKeyCodes();
-//   console.log(keyPressed);
-// }, 100);
 
 document.addEventListener("keydown", function(event) {
   var keys = listenKeys(event);
@@ -16,7 +12,7 @@ document.addEventListener("keydown", function(event) {
 
 var translateKeys = function (keysArray) {
   keysArray.forEach((key) => {
-    
+    console.log(key);
   });
 };
 

@@ -1,6 +1,6 @@
 html,body { height: 100%; margin: 0px; padding: 0px; overflow: hidden}
 .section { height: 100vh; padding: 0px; }
-.section-actions { height: 88vh; }
+.section-actions { height: 90%; }
 
 .full-height-column {
     margin:0; 
@@ -66,4 +66,8 @@ li {
 }
 .action-name {
     color: #fff;
+}
+
+.padding-right {
+    padding-right: 1rem;
 }

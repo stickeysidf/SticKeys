@@ -1,10 +1,14 @@
 section(class="section-actions")
     div(class="columns is-multiline")
+        br() 
+        br()
+        div(class="column is-12")
         each action in actions
-            div(class="column is-12 action-column")
+            div(class="column is-12")
                 div(class="columns")
                     div(class="column is-1")
-                    div(class="column is-7")
+                    div(class="column is-5")
                         span(class="action-name title is-4")= action
                     div(class="column has-text-right")
-                        span(class="action-shorcut title is-5") CTRL + ALT+ A
+                        span(class="action-shorcut title is-5 padding-right") CTRL + ALT+ A
+                hr()
