@@ -34,11 +34,11 @@ export default class Utils {
 		var returnVal = " ";
 		for (key in keyMap) {
 			returnVal += getKeyBy
-			getKeyByIIde(key, ideName);
+			getKeyByIde(key, ideName);
 			returnVal += getKeyByIde("DELIMETER", ideName);
 		}
 
-		// Return last char
+		// Remove last char
 		returnVal = returnVal.substring(0, returnVal.length  - 1);
 
 		return returnVal;
