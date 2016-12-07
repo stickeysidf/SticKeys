@@ -1,5 +1,11 @@
 const electron = require('electron')
 const fs = require('fs');
+const IDELocator = require('./ide_locators/locator');
+
+let ides = IDELocator.getIdes();
+for (let i in ides) {
+  console.log(ides[i] + " : " + IDELocator.isInstalled(ides[i]));
+}
 
 // Module to control application life.
 const app = electron.app
