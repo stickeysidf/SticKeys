@@ -1,46 +1,268 @@
 {
-    "BUILD": {
-        "name": "Build",
+    "": {
+        "name": "",
         "ide": {
-            "vscode": "build",
-            "androidstudio": "intellij.build-tochange"
+            "vscode": "",
+            "androidstudio": "GradleProject"
         }
     },
-    "BUILD_AND_RUN": {},
-    "DEBUG": {},
-    "STEP_OVER": {},
-    "STEP_INTO": {},
-    "STEP_OUT": {},
-    "EVALUATE_EXPRESSION": {},
-    "RESUME": {},
-    "TOGGLE_BREAKPOINT": {},
-    "COPY": {},
-    "MOVE": {},
-    "RENAME": {},
-    "EXTRACT_METHOD": {},
-    "EXTRACT_VARIABLE": {},
-    "EXTRACT_FIELD": {},
-    "EXTRACT_CONSTANT": {},
-    "EXTRACT_PARAMETER": {},
-    "OVERRRIDE_METHODS": {},
-    "IMPLEMENT_METHODS": {},
-    "DUPLICATE_CURRENT_LINE_OR_SELECTION": {},
-    "GO_TO_DECLARATION": {},
-    "GO_TO_IMPLEMENTATIONS": {},
-    "GO_TO_SUPERMETHOD_OR_SUPERCLASS": {},
-    "TOGGLE_BOOKMARK": {},
-    "TOGGLE_COMMENT_LINE": {},
-    "TOGGLE_COMMENT_BLOCK": {},
-    "OPTIMIZE_IMPORTS": {},
-    "REFORMAT_CODE": {},
-    "AUTO_INDENT": {},
-    "TOGGLE_INDENT_LINES": {},
-    "FIND": {},
-    "FIND_IN_WHOLE_PROJECT": {},
-    "REPLACE": {},
-    "FIND_CLASS": {},
-    "FIND_FILE": {},
-    "NAVIGATE_TAB_FORWARDS": {},
-    "NAVIGATE_TAB_BACKWARDS": {},
-    "JUMP_TO_SOURCE": {}
+    "_AND_RUN": {
+        "name": "AndRun",
+        "ide": {
+            "vscode": "",
+            "androidstudio": "Run"
+        }
+},
+    "DEBUG": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+},
+    "STEP_OVER": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+},
+    "STEP_INTO": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "STEP_OUT": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "EVALUATE_EXPRESSION": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "RESUME": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "TOGGLE_BREAKPOINT": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "COPY": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "MOVE": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "RENAME": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "EXTRACT_METHOD": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "EXTRACT_VARIABLE": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "EXTRACT_FIELD": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "EXTRACT_CONSTANT": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "EXTRACT_PARAMETER": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "OVERRRIDE_METHODS": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "IMPLEMENT_METHODS": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "DUPLICATE_CURRENT_LINE_OR_SELECTION": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "GO_TO_DECLARATION": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "GO_TO_IMPLEMENTATIONS": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "GO_TO_SUPERMETHOD_OR_SUPERCLASS": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "TOGGLE_BOOKMARK": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "TOGGLE_COMMENT_LINE": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "TOGGLE_COMMENT_BLOCK": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "OPTIMIZE_IMPORTS": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "REFORMAT_CODE": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "AUTO_INDENT": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "TOGGLE_INDENT_LINES": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "FIND": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "FIND_IN_WHOLE_PROJECT": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "REPLACE": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "FIND_CLASS": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "FIND_FILE": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "NAVIGATE_TAB_FORWARDS": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "NAVIGATE_TAB_BACKWARDS": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    },
+    "JUMP_TO_SOURCE": {
+        "name": "",
+        "ide": {
+            "vscode": "",
+            "androidstudio": ""
+        }
+    }
 }
