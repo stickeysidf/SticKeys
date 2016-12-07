@@ -182,87 +182,87 @@
         }
     },
     "OPTIMIZE_IMPORTS": {
-        "name": "",
+        "name": "Optimize Imports",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "OptimizeImports"
         }
     },
     "REFORMAT_CODE": {
-        "name": "",
+        "name": "Reformat Code",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "ReformatCode"
         }
     },
     "AUTO_INDENT": {
-        "name": "",
+        "name": "Auto Indent",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "AutoIndentLines"
         }
     },
     "TOGGLE_INDENT_LINES": {
-        "name": "",
+        "name": "Toggle Indent Lines",
         "ide": {
             "vscode": "",
             "androidstudio": ""
         }
     },
     "FIND": {
-        "name": "",
+        "name": "Find",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "Find"
         }
     },
     "FIND_IN_WHOLE_PROJECT": {
-        "name": "",
+        "name": "Find In Whole Project",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "SearchEverywhere"
         }
     },
     "REPLACE": {
-        "name": "",
+        "name": "Replace",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "Replace"
         }
     },
     "FIND_CLASS": {
-        "name": "",
+        "name": "Find Class",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "SearchEverywhere"
         }
     },
     "FIND_FILE": {
-        "name": "",
+        "name": "Find File",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "SearchEverywhere"
         }
     },
     "NAVIGATE_TAB_FORWARDS": {
-        "name": "",
+        "name": "Navigate Tab Forwards",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "Forward"
         }
     },
     "NAVIGATE_TAB_BACKWARDS": {
         "name": "",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "Back"
         }
     },
     "JUMP_TO_SOURCE": {
-        "name": "",
+        "name": "Jump To Source",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "EditSource"
         }
     }
 }
