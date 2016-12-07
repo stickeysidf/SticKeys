@@ -24,10 +24,16 @@ li {
     left: 300px;
     /*margin: auto;*/
     z-index: 1;
-    width: 500px;
+    width: 350px;
     top: 100px;
     background-color: #2C2B33;
     border-radius: 8px;
+}
+
+.message-header {
+        background-color: #2C2B33;
+    text-align: center !important;
+    border-radius: 8px !important;
 }
 
 .ideicon {
