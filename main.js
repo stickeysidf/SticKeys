@@ -8,6 +8,7 @@ const BrowserWindow = electron.BrowserWindow
 
 const path = require('path')
 const url = require('url')
+const pug = require('electron-pug')({pretty: true});
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -37,19 +38,13 @@ function createWindow () {
     backgroundColor: backgroundColor,
     autoHideMenuBar: true,
     webPreferences: {
-      preload: path.join(__dirname, 'browser.js'),
       nodeIntegration: false
     }
   });
 
   mainWindow.webContents.setUserAgent(userAgent);
 
-  // and load the index.html of the app.
-  mainWindow.loadURL(url.format({
-    pathname: path.join(__dirname, 'index.html'),
-    protocol: 'file:',
-    slashes: true
-  }))
+  mainWindow.loadURL(`file://${__dirname}/index.pug`);
 
   // Open the DevTools.
   //mainWindow.webContents.openDevTools()
@@ -76,7 +71,7 @@ app.on('ready', () => {
   mainWindow = createWindow();
 
   // Open the DevTools.
-  //mainWindow.webContents.openDevTools()
+  mainWindow.webContents.openDevTools()
 
   const page = mainWindow.webContents;
 
