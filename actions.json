@@ -1,13 +1,13 @@
 {
-    "": {
-        "name": "",
+    "BUILD": {
+        "name": "Build",
         "ide": {
             "vscode": "",
-            "androidstudio": "GradleProject"
+            "androidstudio": "BuildGradleProject"
         }
     },
-    "_AND_RUN": {
-        "name": "AndRun",
+    "BUILD_AND_RUN": {
+        "name": "Build And Run",
         "ide": {
             "vscode": "",
             "androidstudio": "Run"
@@ -21,164 +21,164 @@
         }
 },
     "STEP_OVER": {
-        "name": "",
+        "name": "Step Over",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "StepOver"
         }
 },
     "STEP_INTO": {
-        "name": "",
+        "name": "Step Into",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "StepInto"
         }
     },
     "STEP_OUT": {
-        "name": "",
+        "name": "Step Out",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "StepOut"
         }
     },
     "EVALUATE_EXPRESSION": {
-        "name": "",
+        "name": "Evaluate Expresson",
         "ide": {
             "vscode": "",
             "androidstudio": ""
         }
     },
     "RESUME": {
-        "name": "",
+        "name": "Resume",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "Resume"
         }
     },
     "TOGGLE_BREAKPOINT": {
-        "name": "",
+        "name": "Toggle Breakpoint",
         "ide": {
             "vscode": "",
             "androidstudio": ""
         }
     },
     "COPY": {
-        "name": "",
+        "name": "Copy",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "CopyElement"
         }
     },
     "MOVE": {
-        "name": "",
+        "name": "Move",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "Move"
         }
     },
     "RENAME": {
-        "name": "",
+        "name": "Rename",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "RenameElement"
         }
     },
     "EXTRACT_METHOD": {
-        "name": "",
+        "name": "Extract Methods",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "ExtractMethod"
         }
     },
     "EXTRACT_VARIABLE": {
-        "name": "",
+        "name": "Extract Vriable",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "ExtractVariable"
         }
     },
     "EXTRACT_FIELD": {
-        "name": "",
+        "name": "Extract Field",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "ExtractField"
         }
     },
     "EXTRACT_CONSTANT": {
-        "name": "",
+        "name": "Extract Constant",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "ExtractConstant"
         }
     },
     "EXTRACT_PARAMETER": {
-        "name": "",
+        "name": "Extract Parameter",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "ExtractParameter"
         }
     },
     "OVERRRIDE_METHODS": {
-        "name": "",
+        "name": "Override Methods",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "OverrideMethods"
         }
     },
     "IMPLEMENT_METHODS": {
-        "name": "",
+        "name": "Implement Methods",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "ImplementMethods"
         }
     },
     "DUPLICATE_CURRENT_LINE_OR_SELECTION": {
-        "name": "",
+        "name": "Duplicate Line Or Selection",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "EditorDuplicate"
         }
     },
     "GO_TO_DECLARATION": {
-        "name": "",
+        "name": "Go To Declaration",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "GotoDeclaration"
         }
     },
     "GO_TO_IMPLEMENTATIONS": {
-        "name": "",
+        "name": "Go To Implementations",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "GotoImplementation"
         }
     },
     "GO_TO_SUPERMETHOD_OR_SUPERCLASS": {
-        "name": "",
+        "name": "Go To SuperMethod or Class",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "GotoSuperMethod"
         }
     },
     "TOGGLE_BOOKMARK": {
-        "name": "",
+        "name": "Toggle Bookmark",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "ToggleBookmark"
         }
     },
     "TOGGLE_COMMENT_LINE": {
-        "name": "",
+        "name": "Toggle Comment Line",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "CommentByLineComment"
         }
     },
     "TOGGLE_COMMENT_BLOCK": {
-        "name": "",
+        "name": "Toggle Comment Block",
         "ide": {
             "vscode": "",
-            "androidstudio": ""
+            "androidstudio": "CommentByBlockComment"
         }
     },
     "OPTIMIZE_IMPORTS": {
