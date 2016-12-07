@@ -1,6 +1,7 @@
 'use strict';
 import * as IDE from 'ide';
 import Utils from '../utils';
+import * as defaultVSCode from '../common/keybindings/vscode.json';
 
 export default class VSCode extends IDE {
 
@@ -10,7 +11,7 @@ export default class VSCode extends IDE {
         this.utils = new Utils(platform);
     }
 
-    saveKeyBindings() {
+    saveKeyBindings(userprefs) {
         // fs.save(createKeyBinding());
     }
 
@@ -24,8 +25,8 @@ export default class VSCode extends IDE {
 
     }
 
-    loadKeyBindings() {
-
+    loadDefaultKeyBindings() {
+        return defaultVSCode;
     }
 
 
