@@ -91,7 +91,7 @@
         }
     },
     "NAVIGATE_TAB_BACKWARDS": {
-        "name": "",
+        "name": "Navigate Tab Backwards",
         "ide": {
             "vscode": "workbench.action.navigateBack",
             "androidstudio": "Back"
