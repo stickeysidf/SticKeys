@@ -2,7 +2,7 @@
 import * as IDE from 'ide';
 import Utils from '../utils';
 import * as xmlbuilder from 'xmlbuilder';
-import * as defaultAndroidStudio from '../common/ide/androidstuido.json';
+import * as defaultAndroidStudio from '../common/keybindings/androidstuido.json';
 
 export default class AndroidStudio extends IDE {
 
