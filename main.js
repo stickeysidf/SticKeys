@@ -20,7 +20,7 @@ const pug = require('electron-pug')({pretty: true}, {
   ides:[ 
     {name: 'Visual Studio Code', img: __dirname + '/img/vscode-icon.ico', saved: false, own: IDELocator.isInstalled("vcode")}, 
     {name: 'Android Studio', img: __dirname + '/img/as-icon.png', saved: false, own:  IDELocator.isInstalled("android_studio")}],
-  actions: ["Step Over", "Step Into", "Step Out"],
+  actions: require('./actions.json'),
   keyMapping: require('./keymapping.json')
 });
 
