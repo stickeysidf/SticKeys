@@ -82,19 +82,5 @@
             "vscode": "editor.action.blockComment",
             "androidstudio": "CommentByBlockComment"
         }
-    },
-    "NAVIGATE_TAB_FORWARDS": {
-        "name": "Navigate Tab Forwards",
-        "ide": {
-            "vscode": "workbench.action.navigateForward",
-            "androidstudio": "Forward"
-        }
-    },
-    "NAVIGATE_TAB_BACKWARDS": {
-        "name": "Navigate Tab Backwards",
-        "ide": {
-            "vscode": "workbench.action.navigateBack",
-            "androidstudio": "Back"
-        }
     }
 }

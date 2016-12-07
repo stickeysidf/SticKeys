@@ -1,68 +1,150 @@
 [
     {
-        "key": "shift+alt+a",
-        "when": "editorTextFocus && !editorReadonly",
-        "action": "TOGGLE_COMMENT_BLOCK"
-    },
-    {
-        "key": "ctrl+c",
+        "keys": {
+            "mac": [
+                "COMMAND",
+                "C"
+            ],
+            "win": [
+                "CTRL",
+                "C"
+            ],
+            "linux": [
+                "CTRL",
+                "C"
+            ]
+        },
         "when": "editorTextFocus",
         "action": "COPY"
     },
     {
-        "key": "ctrl+/",
-        "when": "editorTextFocus && !editorReadonly",
-        "action": "TOGGLE_COMMENT_LINE"
-    },
-    {
-        "key": "f12",
-        "when": "editorHasDefinitionProvider && editorTextFocus",
-        "action": "GO_TO_DECLARATION"
-    },
-    {
-        "key": "f2",
+        "keys": {
+            "mac": [
+                "F2"
+            ],
+            "win": [
+                "F2"
+            ],
+            "linux": [
+                "F2"
+            ]
+        },
         "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly",
         "action": "RENAME"
     },
     {
-        "key": "f5",
+        "keys": {
+            "mac": [
+                "F5"
+            ],
+            "win": [
+                "F5"
+            ],
+            "linux": [
+                "F5"
+            ]
+        },
         "when": "inDebugMode",
         "action": "RESUME"
     },
     {
-        "key": "ctrl+f5",
+        "keys": {
+            "mac": [
+                "COMMAND",
+                "F5"
+            ],
+            "win": [
+                "CTRL",
+                "F5"
+            ],
+            "linux": [
+                "CTRL",
+                "F5"
+            ]
+        },
         "when": "!inDebugMode",
         "action": "DEBUG"
     },
     {
-        "key": "f5",
+        "keys": {
+            "mac": [
+                "F5"
+            ],
+            "win": [
+                "F5"
+            ],
+            "linux": [
+                "F5"
+            ]
+        },
         "when": "!inDebugMode",
         "action": "BUILD_AND_RUN"
     },
     {
-        "key": "shift+f11",
+        "keys": {
+            "mac": [
+                "SHIFT",
+                "F11"
+            ],
+            "win": [
+                "SHIFT",
+                "F11"
+            ],
+            "linux": [
+                "SHIFT",
+                "F11"
+            ]
+        },
         "when": "inDebugMode",
         "action": "STEP_OUT"
     },
     {
-        "key": "f10",
+        "keys": {
+            "mac": [
+                "F10"
+            ],
+            "win": [
+                "F10"
+            ],
+            "linux": [
+                "F10"
+            ]
+        },
         "when": "inDebugMode",
         "action": "STEP_OVER"
     },
     {
-        "key": "alt+left",
-        "action": "NAVIGATE_TAB_BACKWARDS"
-    },
-    {
-        "key": "alt+right",
-        "action": "NAVIGATE_TAB_FORWARDS"
-    },
-    {
-        "key": "ctrl+shift+b",
+        "keys": {
+            "mac": [
+                "CTRL",
+                "COMMAND",
+                "B"
+            ],
+            "win": [
+                "CTRL",
+                "SHIFT",
+                "B"
+            ],
+            "linux": [
+                "CTRL",
+                "SHIFT",
+                "B"
+            ]
+        },
         "action": "BUILD"
     },
     {
-        "key": "f11",
+        "keys": {
+            "mac": [
+                "F11"
+            ],
+            "win": [
+                "F11"
+            ],
+            "linux": [
+                "F11"
+            ]
+        },
         "when": "inDebugMode",
         "action": "STEP_INTO"
     }

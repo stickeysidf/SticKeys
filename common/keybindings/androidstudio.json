@@ -1,1 +1,146 @@
-[{"action":"REPLACE","keys":{"macos":["COMMAND","R"],"win":["CTRL","R"],"linux":["CTRL","R"]}},{"action":"FIND_CLASS","keys":{"macos":["COMMAND","O"],"win":["CTRL","N"],"linux":["CTRL","N"]}},{"action":"JUMP_TO_SOURCE","keys":{"macos":["COMMAND","DOWNARROW"],"win":["CTRL","ENTER"],"linux":["CTRL","ENTER"]}},{"action":"IMPLEMENT_METHODS","keys":{"macos":["CTRL","I"],"win":["CTRL","I"],"linux":["CTRL","I"]}},{"action":"DUPLICATE_CURRENT_LINE_OR_SELECTION","keys":{"macos":["COMMAND","D"],"win":["CTRL","D"],"linux":["CTRL","D"]}},{"action":"GO_TO_IMPLEMENTATIONS","keys":{"macos":["COMMAND","ALT","B"],"win":["CTRL","ALT","B"],"linux":["CTRL","ALT","B"]}},{"action":"TOGGLE_BOOKMARK","keys":{"macos":["F3"],"win":["F11"],"linux":["F11"]}},{"action":"OPTIMIZE_IMPORTS","keys":{"macos":["CTRL","OPTION","O"],"win":["CTRL","ALT","O"],"linux":["CTRL","ALT","O"]}},{"action":"REFORMAT_CODE","keys":{"macos":["COMMAND","OPTION","L"],"win":["CTRL","ALT","L"],"linux":["CTRL","ALT","L"]}},{"action":"BUILD_AND_RUN","keys":{"macos":[""],"win":[""],"linux":[""]}},{"action":"BUILD","keys":{"macos":["COMMAND","F9"],"win":["CTRL","F9"],"linux":["CTRL","F9"]}},{"action":"BUILD_AND_RUN","keys":{"macos":["CTRL","R"],"win":["SHIFT","F10"],"linux":["SHIFT","F10"]}},{"action":"DEBUG","keys":{"macos":["CTRL","D"],"win":["SHIFT","F9"],"linux":["SHIFT","F9"]}},{"action":"STEP_OVER","keys":{"macos":["F8"],"win":["F8"],"linux":["F8"]}},{"action":"STEP_INTO","keys":{"macos":["F7"],"win":["F7"],"linux":["F7"]}},{"action":"STEP_OUT","keys":{"macos":["SHIFT","F8"],"win":["SHIFT","F8"],"linux":["SHIFT","F8"]}},{"action":"EVALUATE_EXPRESSION","keys":{"macos":["OPTION","F8"],"win":["ALT","F8"],"linux":["ALT","F8"]}},{"action":"TOGGLE_BREAKPOINT","keys":{"macos":["COMMAND","F8"],"win":["CTRL","F8"],"linux":["CTRL","F8"]}},{"action":"COPY","keys":{"macos":["F5"],"win":["F5"],"linux":["F5"]}},{"action":"MOVE","keys":{"macos":["F6"],"win":["F6"],"linux":["F6"]}},{"action":"RENAME","keys":{"macos":["SHIFT","F6"],"win":["SHIFT","F6"],"linux":["SHIFT","F6"]}},{"action":"EXTRACT_METHOD","keys":{"macos":["COMMAND","OPTION","M"],"win":["CTRL","ALT","M"],"linux":["CTRL","ALT","M"]}},{"action":"EXTRACT_VARIABLE","keys":{"macos":["COMMAND","OPTION","V"],"win":["CTRL","ALT","V"],"linux":["CTRL","ALT","V"]}},{"action":"EXTRACT_FIELD","keys":{"macos":["COMMAND","OPTION","F"],"win":["CTRL","ALT","F"],"linux":["CTRL","ALT","F"]}},{"action":"EXTRACT_CONSTANT","keys":{"macos":["COMMAND","OPTION","C"],"win":["CTRL","ALT","C"],"linux":["CTRL","ALT","C"]}},{"action":"EXTRACT_PARAMETER","keys":{"macos":["COMMAND","OPTION","P"],"win":["CTRL","ALT","P"],"linux":["CTRL","ALT","P"]}}]
+[
+    {
+        "action": "BUILD",
+        "keys": {
+            "macos": [
+                "COMMAND",
+                "F9"
+            ],
+            "win": [
+                "CTRL",
+                "F9"
+            ],
+            "linux": [
+                "CTRL",
+                "F9"
+            ]
+        }
+    },
+    {
+        "action": "BUILD_AND_RUN",
+        "keys": {
+            "macos": [
+                "CTRL",
+                "R"
+            ],
+            "win": [
+                "SHIFT",
+                "F10"
+            ],
+            "linux": [
+                "SHIFT",
+                "F10"
+            ]
+        }
+    },
+    {
+        "action": "DEBUG",
+        "keys": {
+            "macos": [
+                "CTRL",
+                "D"
+            ],
+            "win": [
+                "SHIFT",
+                "F9"
+            ],
+            "linux": [
+                "SHIFT",
+                "F9"
+            ]
+        }
+    },
+    {
+        "action": "STEP_OVER",
+        "keys": {
+            "macos": [
+                "F8"
+            ],
+            "win": [
+                "F8"
+            ],
+            "linux": [
+                "F8"
+            ]
+        }
+    },
+    {
+        "action": "STEP_INTO",
+        "keys": {
+            "macos": [
+                "F7"
+            ],
+            "win": [
+                "F7"
+            ],
+            "linux": [
+                "F7"
+            ]
+        }
+    },
+    {
+        "action": "STEP_OUT",
+        "keys": {
+            "macos": [
+                "SHIFT",
+                "F8"
+            ],
+            "win": [
+                "SHIFT",
+                "F8"
+            ],
+            "linux": [
+                "SHIFT",
+                "F8"
+            ]
+        }
+    },
+    {
+        "action": "TOGGLE_BREAKPOINT",
+        "keys": {
+            "macos": [
+                "COMMAND",
+                "F8"
+            ],
+            "win": [
+                "CTRL",
+                "F8"
+            ],
+            "linux": [
+                "CTRL",
+                "F8"
+            ]
+        }
+    },
+    {
+        "action": "COPY",
+        "keys": {
+            "macos": [
+                "F5"
+            ],
+            "win": [
+                "F5"
+            ],
+            "linux": [
+                "F5"
+            ]
+        }
+    },
+    {
+        "action": "RENAME",
+        "keys": {
+            "macos": [
+                "SHIFT",
+                "F6"
+            ],
+            "win": [
+                "SHIFT",
+                "F6"
+            ],
+            "linux": [
+                "SHIFT",
+                "F6"
+            ]
+        }
+    }
+]
