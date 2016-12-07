@@ -19,6 +19,27 @@ li {
     /*margin-bottom: 20px; */
 }
 
+.float {
+    position: absolute;
+    left: 300px;
+    /*margin: auto;*/
+    z-index: 1;
+    width: 500px;
+    top: 100px;
+    background-color: #2C2B33;
+    border-radius: 8px;
+}
+
+.ideicon {
+    float: left;
+    margin: 12px;
+}
+
+.messagebox {
+    margin: auto;
+    display: table;
+}
+
 .sign {
     /*position: relative;*/
     margin-top: -20px;

@@ -3,11 +3,17 @@ html
     title SticKeys
     link(href="css/bulma.css", rel="stylesheet")
     link(href="css/browser.css", rel="stylesheet")
+    link(href="css/alertify.min.css", rel="stylesheet")
+    link(href="css/alertify.rtl.min.css", rel="stylesheet")
     script(src="js/keymaster.js")
     script(src="js/keys.js")
+    script(src="js/alertify.min.js")
+    script(src="js/message.js")
     script.
       setKeyMapping(!{JSON.stringify(keyMapping)})
   body
+    include views/select-ide.pug 
+
     div(class="container")
       div(class="columns is-gapless")
         div(class="column is-one-quarter full-height-column")
