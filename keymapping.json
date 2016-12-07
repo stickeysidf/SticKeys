@@ -25,7 +25,7 @@
     },
     "ALT" : {
         "androidstudio": {
-            "macos": "alt"
+            "macos": "alt",
             "win" : "alt",
             "linux": "alt"
         },
@@ -877,8 +877,9 @@
             "macos": "9",
             "win": "9",
             "linux": "9"
-        },
-
+        }
+    },
+    
      "0" : {
         "androidstudio": {
             "macos": "0",

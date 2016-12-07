@@ -1,12 +1,26 @@
 var keyPressed = [];
+var keyMapping;
 
+var setKeyMapping = function (mapping) {
+  keyMapping = mapping;
+};
 // var keys = setInterval(function(){ 
 //   keyPressed = key.getPressedKeyCodes();
 //   console.log(keyPressed);
 // }, 100);
 
 document.addEventListener("keydown", function(event) {
-  
+  var keys = listenKeys(event);
+  var translated = translateKeys(keys.split('+'));
+});
+
+var translateKeys = function (keysArray) {
+  keysArray.forEach((key) => {
+    
+  });
+};
+
+var listenKeys = function (event) {
   var keys = "";
 
   if (event.metaKey) {
@@ -25,13 +39,9 @@ document.addEventListener("keydown", function(event) {
     keys += '' + String.fromCharCode(event.keyCode);
   }
 
-console.log(keys);
-
-  if (keys.indexOf('+')) {
-
+  if (keys.endsWith('+')) {
+    keys = keys.substring(0, keys.length - 1);
   }
-});
 
-// while (keyPressed[0] == null) {
-  
-// }
+  return keys;
+};

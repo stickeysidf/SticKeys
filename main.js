@@ -20,7 +20,8 @@ const pug = require('electron-pug')({pretty: true}, {
   ides:[ 
     {name: 'Visual Studio Code', img: __dirname + '/img/vscode-icon.ico', saved: false, own: IDELocator.isInstalled("vcode")}, 
     {name: 'Android Studio', img: __dirname + '/img/as-icon.png', saved: false, own:  IDELocator.isInstalled("android_studio")}],
-  actions: ["Step Over", "Step Into", "Step Out"]
+  actions: ["Step Over", "Step Into", "Step Out"],
+  keyMapping: require('./keymapping.json')
 });
 
 // Keep a global reference of the window object, if you don't, the window will
@@ -61,7 +62,7 @@ function createWindow () {
   mainWindow.loadURL(`file://${__dirname}/index.pug`);
 
   // Open the DevTools.
-  //mainWindow.webContents.openDevTools()
+  mainWindow.webContents.openDevTools()
 
     // Emitted when the window is closed.
   mainWindow.on('closed', function () {

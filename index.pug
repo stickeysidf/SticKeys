@@ -4,8 +4,9 @@ html
     link(href="css/bulma.css", rel="stylesheet")
     link(href="css/browser.css", rel="stylesheet")
     script(src="js/keymaster.js")
-    script(src="js/app.js")
-    
+    script(src="js/keys.js")
+    script.
+      setKeyMapping(!{JSON.stringify(keyMapping)})
   body
     div(class="container")
       div(class="columns is-gapless")
