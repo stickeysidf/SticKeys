@@ -9,6 +9,9 @@ const BrowserWindow = electron.BrowserWindow
 
 var favoriteIDE = null
 
+var ASlocation;
+var VSCodelocation;
+
 const path = require('path')
 const url = require('url')
 const pug = require('electron-pug')({pretty: true}, { 
@@ -18,8 +21,8 @@ const pug = require('electron-pug')({pretty: true}, {
     savedSign: __dirname + '/img/savedsign.png'
   },
   ides:[ 
-    {name: 'Visual Studio Code', img: __dirname + '/img/vscode-icon.ico', saved: false, own: IDELocator.isInstalled("vcode")}, 
-    {name: 'Android Studio', img: __dirname + '/img/as-icon.png', saved: false, own:  IDELocator.isInstalled("android_studio")}],
+    {name: 'Visual Studio Code', img: __dirname + '/img/vscode-icon.ico', saved: false, own: IDELocator.isInstalled("vcode"), location: IDELocator.getIDEUserPrefsPath("vcode")}, 
+    {name: 'Android Studio', img: __dirname + '/img/as-icon.png', saved: false, own:  IDELocator.isInstalled("android_studio"), location: IDELocator.getIDEUserPrefsPath("android_studio")}],
   actions: require('./actions.json'),
   keyMapping: require('./keymapping.json')
 });
