@@ -1,5 +1,6 @@
 html,body { height: 100%; margin: 0px; padding: 0px; overflow: hidden}
 .section { height: 100vh; padding: 0px; }
+.section-actions { height: 88vh; }
 
 .full-height-column {
     margin:0; 
@@ -38,4 +39,14 @@ html,body { height: 100%; margin: 0px; padding: 0px; overflow: hidden}
     background: -webkit-linear-gradient(top, #656571 0%,#46464e 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #656571 0%,#46464e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#656571', endColorstr='#46464e',GradientType=0 );
+}
+
+.action-column {
+    border-bottom: 1px solid #fff;
+}
+.action-shorcut {
+    color: #fff;
+}
+.action-name {
+    color: #fff;
 }
