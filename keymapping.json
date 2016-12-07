@@ -26,9 +26,9 @@
             "linux": "shift"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "shift",
+            "win": "shift",
+            "linux": "shift"
         }
     },
     "DELIMETER" : {
@@ -38,9 +38,9 @@
             "linux": " "
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "+",
+            "win": "+",
+            "linux": "+"
         }
     },
     "WINKEY" : {
@@ -62,9 +62,9 @@
             "linux": "tab"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "tab",
+            "win": "tab",
+            "linux": "tab"
         }
     },
     "NUM_LOCK" : {
@@ -86,9 +86,9 @@
             "linux": "minus"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "-",
+            "win": "-",
+            "linux": "-"
         }
     },
     "ENTER" : {
@@ -98,9 +98,9 @@
             "linux": "enter"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "enter",
+            "win": "enter",
+            "linux": "enter"
         }
     },
     "INSERT" : {
@@ -122,9 +122,9 @@
             "linux": "delete"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "delete",
+            "win": "delete",
+            "linux": "delete"
         }
     },
     "=" : {
@@ -134,9 +134,9 @@
             "linux": "equals"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "=",
+            "win": "=",
+            "linux": "="
         }
     },
     "PAGE_UP" : {
@@ -146,9 +146,9 @@
             "linux": "page_up"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "pageup",
+            "win": "pageup",
+            "linux": "pageup"
         }
     },
     "PAGE_DOWN" : {
@@ -158,9 +158,9 @@
             "linux": "page_down"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "pagedown",
+            "win": "pagedown",
+            "linux": "pagedown"
         }
     },
     "END" : {
@@ -170,9 +170,9 @@
             "linux": "end"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "end",
+            "win": "end",
+            "linux": "end"
         }
     },
     "HOME" : {
@@ -182,9 +182,9 @@
             "linux": "home"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "home",
+            "win": "home",
+            "linux": "home"
         }
     },
 
@@ -195,9 +195,9 @@
             "linux": "f1"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "f1",
+            "win": "f1",
+            "linux": "f1"
         }
     },
 
@@ -208,9 +208,9 @@
             "linux": "f2"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "f2",
+            "win": "f2",
+            "linux": "f2"
         }
     },
 
@@ -221,9 +221,9 @@
             "linux": "f3"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "f3",
+            "win": "f3",
+            "linux": "f3"
         }
     },
 
@@ -234,9 +234,9 @@
             "linux": "f4"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "f4",
+            "win": "f4",
+            "linux": "f4"
         }
     },
 
@@ -247,9 +247,9 @@
             "linux": "f5"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "f5",
+            "win": "f5",
+            "linux": "f5"
         }
     },
 
@@ -260,9 +260,9 @@
             "linux": "f6"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "f6",
+            "win": "f6",
+            "linux": "f6"
         }
     },
 
@@ -273,9 +273,9 @@
             "linux": "f7"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "f7",
+            "win": "f7",
+            "linux": "f7"
         }
     },
 
@@ -286,9 +286,9 @@
             "linux": "f8"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "f8",
+            "win": "f8",
+            "linux": "f8"
         }
     },
 
@@ -299,9 +299,9 @@
             "linux": "f9"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "f9",
+            "win": "f9",
+            "linux": "f9"
         }
     },
 
@@ -312,9 +312,9 @@
             "linux": "f10"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "f10",
+            "win": "f10",
+            "linux": "f10"
         }
     },
 
@@ -325,9 +325,9 @@
             "linux": "f11"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "f11",
+            "win": "f11",
+            "linux": "f11"
         }
     },
 
@@ -338,9 +338,9 @@
             "linux": "f12"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "f12",
+            "win": "f12",
+            "linux": "f12"
         }
     },
 
@@ -351,9 +351,9 @@
             "linux": "backspace"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "backspace",
+            "win": "backspace",
+            "linux": "backspace"
         }
     },
 
@@ -364,9 +364,9 @@
             "linux": "escape"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "escape",
+            "win": "escape",
+            "linux": "escape"
         }
     },
 
@@ -403,9 +403,9 @@
             "linux": "divide"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "/",
+            "win": "/",
+            "linux": "/"
         }
     },
     "-" : {
@@ -415,9 +415,9 @@
             "linux": "substract"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "-",
+            "win": "-",
+            "linux": "-"
         }
     },
 
@@ -428,9 +428,9 @@
             "linux": "a"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "a",
+            "win": "a",
+            "linux": "a"
         }
     },
 
@@ -441,9 +441,9 @@
             "linux": "b"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "b",
+            "win": "b",
+            "linux": "b"
         }
     },
 
@@ -454,9 +454,9 @@
             "linux": "c"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "c",
+            "win": "c",
+            "linux": "c"
         }
     },
 
@@ -467,9 +467,9 @@
             "linux": "d"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "d",
+            "win": "d",
+            "linux": "d"
         }
     },
 
@@ -480,9 +480,9 @@
             "linux": "e"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "e",
+            "win": "e",
+            "linux": "e"
         }
     },
 
@@ -493,9 +493,9 @@
             "linux": "f"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "f",
+            "win": "f",
+            "linux": "f"
         }
     },
 
@@ -506,9 +506,9 @@
             "linux": "g"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "g",
+            "win": "g",
+            "linux": "g"
         }
     },
 
@@ -519,9 +519,9 @@
             "linux": "h"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "h",
+            "win": "h",
+            "linux": "h"
         }
     },
 
@@ -532,9 +532,9 @@
             "linux": "i"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "i",
+            "win": "i",
+            "linux": "i"
         }
     },
 
@@ -545,9 +545,9 @@
             "linux": "j"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "j",
+            "win": "j",
+            "linux": "j"
         }
     },
 
@@ -558,9 +558,9 @@
             "linux": "k"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "k",
+            "win": "k",
+            "linux": "k"
         }
     },
 
@@ -571,9 +571,9 @@
             "linux": "l"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "l",
+            "win": "l",
+            "linux": "l"
         }
     },
 
@@ -584,9 +584,9 @@
             "linux": "m"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "m",
+            "win": "m",
+            "linux": "m"
         }
     },
 
@@ -597,9 +597,9 @@
             "linux": "n"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "n",
+            "win": "n",
+            "linux": "n"
         }
     },
 
@@ -610,9 +610,9 @@
             "linux": "o"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "o",
+            "win": "o",
+            "linux": "o"
         }
     },
 
@@ -623,9 +623,9 @@
             "linux": "p"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "p",
+            "win": "p",
+            "linux": "p"
         }
     },
 
@@ -636,9 +636,9 @@
             "linux": "q"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "q",
+            "win": "q",
+            "linux": "q"
         }
     },
 
@@ -649,9 +649,9 @@
             "linux": "r"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "r",
+            "win": "r",
+            "linux": "r"
         }
     },
 
@@ -662,9 +662,9 @@
             "linux": "s"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "s",
+            "win": "s",
+            "linux": "s"
         }
     },
 
@@ -675,9 +675,9 @@
             "linux": "t"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "t",
+            "win": "t",
+            "linux": "t"
         }
     },
 
@@ -688,9 +688,9 @@
             "linux": "u"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "u",
+            "win": "u",
+            "linux": "u"
         }
     },
 
@@ -701,9 +701,9 @@
             "linux": "v"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "v",
+            "win": "v",
+            "linux": "v"
         }
     },
 
@@ -714,9 +714,9 @@
             "linux": "w"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "w",
+            "win": "w",
+            "linux": "w"
         }
     },
 
@@ -727,9 +727,9 @@
             "linux": "x"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "x",
+            "win": "x",
+            "linux": "x"
         }
     },
 
@@ -740,9 +740,9 @@
             "linux": "y"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "y",
+            "win": "y",
+            "linux": "y"
         }
     },
 
@@ -753,9 +753,9 @@
             "linux": "z"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "z",
+            "win": "z",
+            "linux": "z"
         }
     },
 
@@ -766,9 +766,9 @@
             "linux": "1"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "1",
+            "win": "1",
+            "linux": "1"
         }
     },
 
@@ -779,9 +779,9 @@
             "linux": "2"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "2",
+            "win": "2",
+            "linux": "2"
         }
     },
 
@@ -792,9 +792,9 @@
             "linux": "3"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "3",
+            "win": "3",
+            "linux": "3"
         }
     },
 
@@ -805,9 +805,9 @@
             "linux": "4"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "4",
+            "win": "4",
+            "linux": "4"
         }
     },
 
@@ -818,9 +818,9 @@
             "linux": "5"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "5",
+            "win": "5",
+            "linux": "5"
         }
     },
 
@@ -831,9 +831,9 @@
             "linux": "6"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "6",
+            "win": "6",
+            "linux": "6"
         }
     },
 
@@ -844,9 +844,9 @@
             "linux": "7"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "7",
+            "win": "7",
+            "linux": "7"
         }
     },
 
@@ -857,9 +857,9 @@
             "linux": "8"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "8",
+            "win": "8",
+            "linux": "8"
         }
     },
 
@@ -870,9 +870,21 @@
             "linux": "9"
         },
         "vscode": {
-            "macos": "",
-            "win": "",
-            "linux": ""
+            "macos": "9",
+            "win": "9",
+            "linux": "9"
+        },
+
+     "0" : {
+        "androidstudio": {
+            "macos": "0",
+            "win": "0",
+            "linux": "0"
+        },
+        "vscode": {
+            "macos": "0",
+            "win": "0",
+            "linux": "0"
         }
     }
 }
