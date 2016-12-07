@@ -12,21 +12,21 @@
             "vscode": "workbench.action.debug.start",
             "androidstudio": "Run"
         }
-},
+    },
     "DEBUG": {
         "name": "Debug",
         "ide": {
             "vscode": "workbench.action.debug.run",
             "androidstudio": "Debug"
         }
-},
+    },
     "STEP_OVER": {
         "name": "Step Over",
         "ide": {
             "vscode": "workbench.action.debug.stepOver",
             "androidstudio": "StepOver"
         }
-},
+    },
     "STEP_INTO": {
         "name": "Step Into",
         "ide": {
@@ -41,25 +41,11 @@
             "androidstudio": "StepOut"
         }
     },
-    "EVALUATE_EXPRESSION": {
-        "name": "Evaluate Expresson",
-        "ide": {
-            "vscode": "",
-            "androidstudio": ""
-        }
-    },
     "RESUME": {
         "name": "Resume",
         "ide": {
             "vscode": "workbench.action.debug.continue",
             "androidstudio": "Resume"
-        }
-    },
-    "TOGGLE_BREAKPOINT": {
-        "name": "Toggle Breakpoint",
-        "ide": {
-            "vscode": "editor.debug.action.toggleBreakpoint",
-            "androidstudio": ""
         }
     },
     "COPY": {
@@ -69,13 +55,6 @@
             "androidstudio": "CopyElement"
         }
     },
-    "MOVE": {
-        "name": "Move",
-        "ide": {
-            "vscode": "",
-            "androidstudio": "Move"
-        }
-    },
     "RENAME": {
         "name": "Rename",
         "ide": {
@@ -83,88 +62,11 @@
             "androidstudio": "RenameElement"
         }
     },
-    "EXTRACT_METHOD": {
-        "name": "Extract Methods",
-        "ide": {
-            "vscode": "",
-            "androidstudio": "ExtractMethod"
-        }
-    },
-    "EXTRACT_VARIABLE": {
-        "name": "Extract Vriable",
-        "ide": {
-            "vscode": "",
-            "androidstudio": "ExtractVariable"
-        }
-    },
-    "EXTRACT_FIELD": {
-        "name": "Extract Field",
-        "ide": {
-            "vscode": "",
-            "androidstudio": "ExtractField"
-        }
-    },
-    "EXTRACT_CONSTANT": {
-        "name": "Extract Constant",
-        "ide": {
-            "vscode": "",
-            "androidstudio": "ExtractConstant"
-        }
-    },
-    "EXTRACT_PARAMETER": {
-        "name": "Extract Parameter",
-        "ide": {
-            "vscode": "",
-            "androidstudio": "ExtractParameter"
-        }
-    },
-    "OVERRRIDE_METHODS": {
-        "name": "Override Methods",
-        "ide": {
-            "vscode": "",
-            "androidstudio": "OverrideMethods"
-        }
-    },
-    "IMPLEMENT_METHODS": {
-        "name": "Implement Methods",
-        "ide": {
-            "vscode": "",
-            "androidstudio": "ImplementMethods"
-        }
-    },
-    "DUPLICATE_CURRENT_LINE_OR_SELECTION": {
-        "name": "Duplicate Line Or Selection",
-        "ide": {
-            "vscode": "",
-            "androidstudio": "EditorDuplicate"
-        }
-    },
     "GO_TO_DECLARATION": {
         "name": "Go To Declaration",
         "ide": {
             "vscode": "editor.action.goToDeclaration",
             "androidstudio": "GotoDeclaration"
-        }
-    },
-    "GO_TO_IMPLEMENTATIONS": {
-        "name": "Go To Implementations",
-        "ide": {
-            "vscode": "",
-            "androidstudio": "GotoImplementation"
-        }
-    },
-    "GO_TO_SUPERMETHOD_OR_SUPERCLASS": {
-        "name": "Go To SuperMethod or Class",
-        "ide": {
-            "vscode": "",
-            "androidstudio": "GotoSuperMethod"
-        }
-    },
-    "TOGGLE_BOOKMARK": {
-        "name": "Toggle Bookmark",
-        "ide": {
-            "vscode": "",
-            "androidstudio": "ToggleBookmark"
         }
     },
     "TOGGLE_COMMENT_LINE": {
@@ -181,55 +83,6 @@
             "androidstudio": "CommentByBlockComment"
         }
     },
-    "OPTIMIZE_IMPORTS": {
-        "name": "Optimize Imports",
-        "ide": {
-            "vscode": "",
-            "androidstudio": "OptimizeImports"
-        }
-    },
-    "REFORMAT_CODE": {
-        "name": "Reformat Code",
-        "ide": {
-            "vscode": "",
-            "androidstudio": "ReformatCode"
-        }
-    },
-    "AUTO_INDENT": {
-        "name": "Auto Indent",
-        "ide": {
-            "vscode": "",
-            "androidstudio": "AutoIndentLines"
-        }
-    },
-    "FIND_IN_WHOLE_PROJECT": {
-        "name": "Find In Whole Project",
-        "ide": {
-            "vscode": "",
-            "androidstudio": "SearchEverywhere"
-        }
-    },
-    "REPLACE": {
-        "name": "Replace",
-        "ide": {
-            "vscode": "",
-            "androidstudio": "Replace"
-        }
-    },
-    "FIND_CLASS": {
-        "name": "Find Class",
-        "ide": {
-            "vscode": "",
-            "androidstudio": "SearchEverywhere"
-        }
-    },
-    "FIND_FILE": {
-        "name": "Find File",
-        "ide": {
-            "vscode": "",
-            "androidstudio": "SearchEverywhere"
-        }
-    },
     "NAVIGATE_TAB_FORWARDS": {
         "name": "Navigate Tab Forwards",
         "ide": {
@@ -238,17 +91,10 @@
         }
     },
     "NAVIGATE_TAB_BACKWARDS": {
-        "name": "",
+        "name": "Navigate Tab Backwards",
         "ide": {
             "vscode": "workbench.action.navigateBack",
             "androidstudio": "Back"
-        }
-    },
-    "JUMP_TO_SOURCE": {
-        "name": "Jump To Source",
-        "ide": {
-            "vscode": "",
-            "androidstudio": "EditSource"
         }
     }
 }

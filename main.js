@@ -20,14 +20,14 @@ const pug = require('electron-pug')({pretty: true}, {
   ides:[ 
     {name: 'Visual Studio Code', img: __dirname + '/img/vscode-icon.ico', saved: false, own: IDELocator.isInstalled("vcode")}, 
     {name: 'Android Studio', img: __dirname + '/img/as-icon.png', saved: false, own:  IDELocator.isInstalled("android_studio")}],
-  actions: ["Step Over", "Step Into", "Step Out"],
+  actions: require('./actions.json'),
   keyMapping: require('./keymapping.json')
 });
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
-var backgroundColor = '#fff'
+var backgroundColor = '#46464e'
 
 function createWindow () {
   const userAgent = '(Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36';
@@ -48,7 +48,6 @@ function createWindow () {
     width: minWidthValue,
     height: minHeightValue,
     resizable: false,
-    icon: process.platform === 'linux' && sticKeysDesktopIcon,
     titleBarStyle: 'hidden-inset',
     backgroundColor: backgroundColor,
     autoHideMenuBar: true,
