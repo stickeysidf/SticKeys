@@ -3,6 +3,13 @@ section(class="section ide-list")
         div(class="column is-12 draggable-background line-separator")
             figure(class="image is-51x46")
                 p(class="title is-3") SticKeys
-                ul 
-                each ide in ides
-                  li = ide
+        div(class="column is-12")
+            each ide in ides
+                div
+                    img(src= ide.img class="image is-96x96 center")
+                if ide.saved
+                    img(src= images.savedSign class="image is-14x14 sign")
+                else
+                    //- img(src= images.notSavedSign class="image is-14x14 sign")      
+    if favoriteIDE != null
+        //- img(src= images.savedSign class="image is-140x140 sign") 

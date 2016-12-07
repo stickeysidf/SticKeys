@@ -6,10 +6,19 @@ const app = electron.app
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow
 
+var favoriteIDE = null
+
 const path = require('path')
 const url = require('url')
 const pug = require('electron-pug')({pretty: true}, { 
-  ides:[ 'Visual Studio Code', 'Android Studio'],
+  favoriteIDE: favoriteIDE,
+  images: {
+    notSavedSign: __dirname + '/img/not_saved_sign.png',
+    savedSign: __dirname + '/img/savedsign.png'
+  },
+  ides:[ 
+    {name: 'Visual Studio Code', img: __dirname + '/img/vscode-icon.ico', saved: false }, 
+    {name: 'Android Studio', img: __dirname + '/img/as-icon.png', saved: false }],
   actions: ["Step Over", "Step Into", "Step Out"]
 });
 
@@ -36,6 +45,7 @@ function createWindow () {
     maxHeight: maxHeighthValue,
     width: minWidthValue,
     height: minHeightValue,
+    resizable: false,
     icon: process.platform === 'linux' && sticKeysDesktopIcon,
     titleBarStyle: 'hidden-inset',
     backgroundColor: backgroundColor,
