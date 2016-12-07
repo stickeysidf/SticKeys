@@ -9,6 +9,9 @@ const BrowserWindow = electron.BrowserWindow
 
 var favoriteIDE = null
 
+var ASlocation;
+var VSCodelocation;
+
 const path = require('path')
 const url = require('url')
 const pug = require('electron-pug')({pretty: true}, { 
@@ -18,15 +21,20 @@ const pug = require('electron-pug')({pretty: true}, {
     savedSign: __dirname + '/img/savedsign.png'
   },
   ides:[ 
-    {name: 'Visual Studio Code', img: __dirname + '/img/vscode-icon.ico', saved: false, own: IDELocator.isInstalled("vcode")}, 
-    {name: 'Android Studio', img: __dirname + '/img/as-icon.png', saved: false, own:  IDELocator.isInstalled("android_studio")}],
-  actions: ["Step Over", "Step Into", "Step Out"]
+    {name: 'Visual Studio Code', img: __dirname + '/img/vscode-icon.ico', saved: false, own: IDELocator.isInstalled("vcode"), location: IDELocator.getIDEUserPrefsPath("vcode")}, 
+    {name: 'Android Studio', img: __dirname + '/img/as-icon.png', saved: false, own:  IDELocator.isInstalled("android_studio"), location: IDELocator.getIDEUserPrefsPath("android_studio")}],
+  actions: require('./actions.json'),
+  keyMapping: require('./keymapping.json'),
+  ideMapping: {
+    'androidstudio': require('./common/keybindings/androidstudio.json'),
+    'vscode': require('./common/keybindings/vscode.json') 
+  }
 });
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
-var backgroundColor = '#fff'
+var backgroundColor = '#46464e'
 
 function createWindow () {
   const userAgent = '(Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36';
@@ -47,7 +55,6 @@ function createWindow () {
     width: minWidthValue,
     height: minHeightValue,
     resizable: false,
-    icon: process.platform === 'linux' && sticKeysDesktopIcon,
     titleBarStyle: 'hidden-inset',
     backgroundColor: backgroundColor,
     autoHideMenuBar: true,
@@ -61,7 +68,7 @@ function createWindow () {
   mainWindow.loadURL(`file://${__dirname}/index.pug`);
 
   // Open the DevTools.
-  //mainWindow.webContents.openDevTools()
+  // mainWindow.webContents.openDevTools()
 
     // Emitted when the window is closed.
   mainWindow.on('closed', function () {

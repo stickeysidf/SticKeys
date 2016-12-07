@@ -1,6 +1,6 @@
-html,body { height: 100%; margin: 0px; padding: 0px; overflow: hidden}
+html,body { height: 100%; margin: 0px; padding: 0px;}
 .section { height: 100vh; padding: 0px; }
-.section-actions { height: 88vh; }
+.section-actions { height: 90%; }
 
 .full-height-column {
     margin:0; 
@@ -17,6 +17,33 @@ li {
     margin: auto;
     margin-top: 20px;
     /*margin-bottom: 20px; */
+}
+
+.float {
+    position: absolute;
+    left: 300px;
+    /*margin: auto;*/
+    z-index: 1;
+    width: 350px;
+    top: 100px;
+    background-color: #2C2B33;
+    border-radius: 8px;
+}
+
+.message-header {
+        background-color: #2C2B33;
+    text-align: center !important;
+    border-radius: 8px !important;
+}
+
+.ideicon {
+    float: left;
+    margin: 12px;
+}
+
+.messagebox {
+    margin: auto;
+    display: table;
 }
 
 .sign {
@@ -66,4 +93,17 @@ li {
 }
 .action-name {
     color: #fff;
+}
+
+.padding-right {
+    padding-right: 1rem;
+}
+
+.actions-list {
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.action-col {
+    cursor: pointer;
 }

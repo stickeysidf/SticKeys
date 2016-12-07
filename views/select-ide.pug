@@ -1,0 +1,7 @@
+if favoriteIDE == null
+    article(class="message float")
+        div(id="idebox" class="message-header") Choose your favorite IDE
+            div(class="messagebox")
+                each ide in ides
+                    if ide.own
+                        img(id= ide.name src= ide.img class="image is-96x96 ideicon")
