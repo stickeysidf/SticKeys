@@ -408,19 +408,7 @@
             "linux": "/"
         }
     },
-    "-" : {
-        "androidstudio": {
-            "macos": "substract",
-            "win": "substract",
-            "linux": "substract"
-        },
-        "vscode": {
-            "macos": "-",
-            "win": "-",
-            "linux": "-"
-        }
-    },
-
+    
     "A" : {
         "androidstudio": {
             "macos": "a",
