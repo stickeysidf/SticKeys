@@ -1,0 +1,69 @@
+html,body { height: 100%; margin: 0px; padding: 0px; overflow: hidden}
+.section { height: 100vh; padding: 0px; }
+.section-actions { height: 88vh; }
+
+.full-height-column {
+    margin:0; 
+    padding:0; 
+    height:100%;
+}
+
+li {
+    color: white;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    /*margin-bottom: 20px; */
+}
+
+.sign {
+    /*position: relative;*/
+    margin-top: -20px;
+    left: 138;
+}
+
+.ide-list {
+    background-color: #2C2B33;
+}
+
+.title {
+    color: #D1D1D9;
+    text-align: center;
+    margin-top: 180px;
+}
+
+.draggable-background {
+    /* Make the navbar the windows's draggable region */
+    -webkit-app-region: drag;
+     /*background-color: red;*/
+     background-image: url("../img/SticKeys_Icon@512.png");
+     background-repeat: no-repeat;
+     background-size: 200px 200px;
+     background-position: center;
+     height: 230px;
+}
+
+.line-separator{
+    border-bottom:1px solid #fff;
+}
+
+.shortcuts-list {
+    background: #656571; /* Old browsers */
+    background: -moz-linear-gradient(top, #656571 0%, #46464e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #656571 0%,#46464e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #656571 0%,#46464e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#656571', endColorstr='#46464e',GradientType=0 );
+}
+
+.action-column {
+    border-bottom: 1px solid #fff;
+}
+.action-shorcut {
+    color: #fff;
+}
+.action-name {
+    color: #fff;
+}

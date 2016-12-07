@@ -1,2 +1,0 @@
-# SticKeys
-SticKeys

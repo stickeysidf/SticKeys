@@ -1,79 +1,69 @@
 [
     {
         "key": "shift+alt+a",
-        "command": "editor.action.blockComment",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+insert",
-        "command": "editor.action.clipboardCopyAction",
-        "when": "editorTextFocus"
+        "when": "editorTextFocus && !editorReadonly",
+        "action": "TOGGLE_COMMENT_BLOCK"
     },
     {
         "key": "ctrl+c",
-        "command": "editor.action.clipboardCopyAction",
-        "when": "editorTextFocus"
+        "when": "editorTextFocus",
+        "action": "COPY"
     },
     {
         "key": "ctrl+/",
-        "command": "editor.action.commentLine",
-        "when": "editorTextFocus && !editorReadonly"
+        "when": "editorTextFocus && !editorReadonly",
+        "action": "TOGGLE_COMMENT_LINE"
     },
     {
         "key": "f12",
-        "command": "editor.action.goToDeclaration",
-        "when": "editorHasDefinitionProvider && editorTextFocus"
+        "when": "editorHasDefinitionProvider && editorTextFocus",
+        "action": "GO_TO_DECLARATION"
     },
     {
         "key": "f2",
-        "command": "editor.action.rename",
-        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "f9",
-        "command": "editor.debug.action.toggleBreakpoint",
-        "when": "editorTextFocus"
+        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly",
+        "action": "RENAME"
     },
     {
         "key": "f5",
-        "command": "workbench.action.debug.continue",
-        "when": "inDebugMode"
+        "when": "inDebugMode",
+        "action": "RESUME"
     },
     {
         "key": "ctrl+f5",
-        "command": "workbench.action.debug.run",
-        "when": "!inDebugMode"
+        "when": "!inDebugMode",
+        "action": "DEBUG"
     },
     {
         "key": "f5",
-        "command": "workbench.action.debug.start",
-        "when": "!inDebugMode"
+        "when": "!inDebugMode",
+        "action": "BUILD_AND_RUN"
     },
     {
         "key": "shift+f11",
-        "command": "workbench.action.debug.stepOut",
-        "when": "inDebugMode"
+        "when": "inDebugMode",
+        "action": "STEP_OUT"
     },
     {
         "key": "f10",
-        "command": "workbench.action.debug.stepOver",
-        "when": "inDebugMode"
+        "when": "inDebugMode",
+        "action": "STEP_OVER"
     },
     {
         "key": "alt+left",
-        "command": "workbench.action.navigateBack"
+        "action": "NAVIGATE_TAB_BACKWARDS"
     },
     {
         "key": "alt+right",
-        "command": "workbench.action.navigateForward"
+        "action": "NAVIGATE_TAB_FORWARDS"
     },
     {
         "key": "ctrl+shift+b",
-        "command": "workbench.action.tasks.build"
+        "action": "BUILD"
     },
     {
         "key": "f11",
-        "command": "workbench.action.debug.stepInto",
-        "when": "inDebugMode"
+        "when": "inDebugMode",
+        "action": "STEP_INTO"
     }
 ]
