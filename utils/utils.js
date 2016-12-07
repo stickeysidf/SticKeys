@@ -24,7 +24,7 @@ export default class Utils {
 			var obj = {};
 			obj.action = getActionIdByIde(action.action, ideName);
 			obj.keys = keyArrayToString(userkeys[action].keys)
-			arr.append(obj); 
+			arr.push(obj); 
 		}
 
 		return arr;
