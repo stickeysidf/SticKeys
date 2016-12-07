@@ -31,10 +31,13 @@ const getLatestIDEVersionPath = (p) => {
     if (versions.length == 0) {
         return null;
     } else {
-        var latest = parseFloat(versions[0]);
+        var latest = 0;
 
         for (var i in versions) {
-            latest = Math.max(latest, parseFloat(versions[i]));
+            var v = parseFloat(versions[i]);
+            if (!isNaN(v)) {
+                latest = Math.max(latest, v);
+            }
         }
 
         return p + CONFIGURATION_FOLDER + latest;
