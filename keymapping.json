@@ -1,0 +1,22 @@
+{
+    "CTRL": {
+        "xcode": {
+            "macos": "^"
+        },
+        "vscode": {
+            "macos": "ctrl",
+            "win": "ctrl",
+            "linux": "ctrl"
+        }
+    },
+    "ATL": {
+        "xcode": {
+            "macos": "⌥"
+        },
+        "vscode": {
+            "macos": "alt",
+            "win": "alt",
+            "linux": "alt"
+        }
+    }
+}
